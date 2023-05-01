@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   </head>
   <body>
@@ -15,9 +17,33 @@
         height: 50vh; 
         object-fit: cover;
       }
-         
+      .card {
+        margin: 0 auto;
+        width: 60%;
+      }
+      .image-icons{
+        width: 20px;
+        height: 20px;
+      }
+      @media (min-width: 1000px) {
+        .splide__arrow--next {
+          display: none;
+        }
+        .splide__arrow--prev {
+          display: none;
+        }
+        .card {
+          margin: 0 auto;
+          width: 60%;
+        }
+        .image-icons{
+          width: 30px;
+          height: 30px;
+        }
+      }
 
     </style>
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,87 +81,172 @@
       </div>
     </div>
 
-    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-md-4">
-                  <div class="card">
-                    <img src="img1.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card 1</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    </div>
+    <div class="splide">
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide">
+            <div class="card">
+              <img src="/img/depositphotos_66237819-stock-photo-young-people-holding-bowling-balls.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <p class="card-text mb-4"><strong>Noortekas 12-le</strong></p>
+
+                <div class="row">
+                  <div class="col-2">
+                    <img src="/icons/bowling.png" class="image-icons" alt="Bowling icon">
+                  </div>
+                  <div class="col-10 text-left">
+                    <P>Bowling 2 rada 2h</P>
                   </div>
                 </div>
-                <div class="col-md-4">
-                  <div class="card">
-                    <img src="img2.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card 2</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                    </div>
+
+                <div class="row">
+                  <div class="col-2">
+                    <img src="/icons/shoes.png" class="image-icons" alt="Shoes icon">
+                  </div>
+                  <div class="col-10 text-left">
+                    <P>Bowlingujalatsid</P>
                   </div>
                 </div>
-                <div class="col-md-4">
-                  <div class="card">
-                    <img src="img3.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card 3</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                    </div>
+
+                <div class="row">
+                  <div class="col-2">
+                    <img src="/icons/drink.png" class="image-icons" alt="Drink icon">
+                  </div>
+                  <div class="col-10 text-left">
+                    <P>Aura mahl 4l</P>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-2">
+                    <img src="/icons/snack.png" class="image-icons" alt="Snack icon">
+                  </div>
+                  <div class="col-10 text-left">
+                    <P>Popcorn 1pk</P>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-2">
+                    <img src="/icons/restaurant.png" class="image-icons" alt="Food icon">
+                  </div>
+                  <div class="col-10 text-left">
+                    <P>Friikartulid ja pelmeenid</P>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-2">
+                    <img src="/icons/restaurant.png" class="image-icons" alt="Food icon">
+                  </div>
+                  <div class="col-10 text-left">
+                    <P>Küüslauguleivad</P>
+                  </div>
+                </div>
+
+                <div class="row justify-content-center mt-5">
+                  <div class="col-6 text-left">
+                    <p class="fs-3"><strong>200.-</strong></p>
+                  </div>
+                  <div class="col-6 text-center">
+                    <button class="btn btn-primary btn-md"><a href="/reserve.html" class="text-white">Broneeri</a></button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </li>
+          <li class="splide__slide">
+            <div class="card">
+              <img src="/img/attachment-Untitled-design-48.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <p class="card-text mb-4"><strong>Winku lastekas 12-le</strong></p>
+                
+                <div class="row">
+                  <div class="col-2">
+                    <img src="/icons/bowling.png" class="image-icons" alt="Bowling icon">
+                  </div>
+                  <div class="col-10 text-left">
+                    <P>Bowling 2 rada 2h</P>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-2">
+                    <img src="/icons/shoes.png" class="image-icons" alt="Shoes icon">
+                  </div>
+                  <div class="col-10 text-left">
+                    <P>Bowlingujalatsid</P>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-2">
+                    <img src="/icons/drink.png" class="image-icons" alt="Drink icon">
+                  </div>
+                  <div class="col-10 text-left">
+                    <P>Aura mahl 4l</P>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-2">
+                    <img src="/icons/snack.png" class="image-icons" alt="Snack icon">
+                  </div>
+                  <div class="col-10 text-left">
+                    <P>Laysi kartulikrõpsud 2tki</P>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-2">
+                    <img src="/icons/restaurant.png" class="image-icons" alt="Food icon">
+                  </div>
+                  <div class="col-10 text-left">
+                    <P>Friikartulid viineritega</P>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-2">
+                    <img src="/icons/gift.png" class="image-icons" alt="Food icon">
+                  </div>
+                  <div class="col-10 text-left">
+                    <P>Kingitus sünnipäevalapsele</P>
+                  </div>
+                </div>
+
+                <div class="row justify-content-center mt-5">
+                  <div class="col-6 text-left">
+                    <p class="fs-3"><strong>200.-</strong></p>
+                  </div>
+                  <div class="col-6 text-center">
+                    <button class="btn btn-primary btn-md"><a href="/reserve.html" class="text-white">Broneeri</a></button>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="carousel-item">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-md-4">
-                  <div class="card">
-                    <img src="img4.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card 4</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="card">
-                    <img src="img5.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card 5</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="card">
-                    <img src="img6.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card 6</h5>
-                      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
+          </li>
+        </ul>
       </div>
     </div>
-  </div>
+    
+    <script>
+      new Splide('.splide', {
+        type: 'loop',
+        perPage: 2,
+        cover: true,
+        breakpoints: {
+          1000: {
+            perPage: 1,
+            arrow: {
+              next: null,
+            },
+          },
+        },
+      }).mount();
+
+    </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
   </body>
