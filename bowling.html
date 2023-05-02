@@ -25,6 +25,28 @@
         width: 20px;
         height: 20px;
       }
+      footer {
+        background-color: #273043;
+
+      }
+      .splide{
+        background-color: #273043;
+      }
+      .text-box{
+        background-color: #fff;
+      }
+      .footer-box {
+        width: 300px;
+        height: 250px;
+        background-color: #fff;
+        transform: skew(-15deg);
+        padding: 20px;
+        box-shadow: 0px 0px 5px #ccc;
+        margin: 0 auto;
+        position: relative;
+        z-index: 1;
+      }
+      
       @media (min-width: 1000px) {
         .splide__arrow--next {
           display: none;
@@ -34,7 +56,7 @@
         }
         .card {
           margin: 0 auto;
-          width: 60%;
+          width: 50%;
         }
         .image-icons{
           width: 30px;
@@ -73,10 +95,10 @@
 
     <img src="/img/360_F_514390302_dvavptRwXNRjIUTDJH5ivrO2iPhaDUa8.jpg" class="img-fluid w-100 cover-image" alt="...">
 
-    <div class="container my-4">
+    <div class="container my-5 text-box">
       <div class="row">
         <div class="col"></div>
-        <div class="col-10 text-start">Männimäe bowling on hiljuti uuendatud kaasaegne 6-rajaline bowlingusaal meie peamaja esimesel korrusel. Tänapäevane tehnika ja efektiderohked rajad pakuvad mõnusat meelelahutust nii väikestele kui suurtele. Rajaäärsed tõstemehhanismid mis ei lase pallil renni veereda garanteerivad ka pisemate pereliikmete mängurõõmu. Parkimine Männimäe Bowlingu parklas on külalistele tasuta.</div>
+        <div class="col-10 text-start my-5 fs-5">Männimäe bowling on hiljuti uuendatud kaasaegne 6-rajaline bowlingusaal meie peamaja esimesel korrusel. Tänapäevane tehnika ja efektiderohked rajad pakuvad mõnusat meelelahutust nii väikestele kui suurtele. Rajaäärsed tõstemehhanismid mis ei lase pallil renni veereda garanteerivad ka pisemate pereliikmete mängurõõmu. Parkimine Männimäe Bowlingu parklas on külalistele tasuta.</div>
         <div class="col"></div>
       </div>
     </div>
@@ -85,7 +107,7 @@
       <div class="splide__track">
         <ul class="splide__list">
           <li class="splide__slide">
-            <div class="card">
+            <div class="card my-5">
               <img src="/img/depositphotos_66237819-stock-photo-young-people-holding-bowling-balls.jpg" class="card-img-top" alt="">
               <div class="card-body">
                 <p class="card-text mb-4"><strong>Noortekas 12-le</strong></p>
@@ -157,7 +179,7 @@
             </div>
           </li>
           <li class="splide__slide">
-            <div class="card">
+            <div class="card my-5">
               <img src="/img/attachment-Untitled-design-48.jpg" class="card-img-top" alt="">
               <div class="card-body">
                 <p class="card-text mb-4"><strong>Winku lastekas 12-le</strong></p>
@@ -230,7 +252,22 @@
         </ul>
       </div>
     </div>
-    
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-8">
+            <div class="footer-box">
+              <h4>Kontakt</h4>
+              <p>K-N 16:00-22:00, R 16:00-00:00,</p>
+              <p>L 12:00-00:00, P 12:00-22:00</p>
+              <p>Riia mnt 52f, Viljandi</p>
+              <p>+372 435 4844</p>
+              <p>bowling@mannimaja.ee</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script>
       new Splide('.splide', {
         type: 'loop',
