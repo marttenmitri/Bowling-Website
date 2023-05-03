@@ -1,60 +1,150 @@
-.btn-link{
+.btn-link {
     color: #000000;
     text-decoration: none;
 }
-.btn-link:hover{
+
+.btn-link:hover {
     color: #000000;
+}
+
+.btn-primary {
+    background-color: #4B7F52;
+    border-color: #4B7F52;
+}
+
+.btn-primary:hover {
+    background-color: #5c9964;
+    border-color: #4B7F52;
+}
+
+.btn-primary:active {
+    background-color: #5c9964;
+    border-color: #4B7F52;
+}
+
+.btn-absolute{
+    position: absolute;
+    left: 10%;
+    width: 170px;
+}
+.btn-orange{
+    background-color: #FA7921;
+}
+.btn-orange:hover{
+    background-color: #fa6a0a;
 }
 .navbar img {
     max-height: 40px;
 }
-.btn-icon{
+
+.btn-icon {
     height: 30px;
     width: 30px;
 }
-.cover-image{
-    height: 50vh; 
+
+.cover-image {
+    height: 50vh;
     object-fit: cover;
 }
 
-.image-icons{
+.image-icons {
     width: 20px;
     height: 20px;
 }
-footer{
+
+footer {
     color: black;
 }
+
 .footer-box {
     background-color: #fff;
     width: 100%;
     height: 250px;
     padding: 20px;
     z-index: 1;
+    border-radius: 10px 10px 0px 0px;
 }
-.btn-basic{
+
+.btn-basic {
     background-color: #fff;
 }
-.btn-basic:hover{
+
+.btn-basic:hover {
     background-color: #FA7921;
 }
-.container-main{
+
+.container-main {
     background-color: #273043;
     color: #fff;
 }
 
-.container-white{
+.container-white {
     background-color: #fff;
     color: #000000;
 }
-@media (min-width: 768px) {
-.footer-box {
-    background-color: #fff;
-    width: 300px;
-    height: 250px;
-    transform: skew(-15deg);
-    padding: 20px;
-    margin: 0 auto;
-    position: relative;
-    z-index: 1;
+
+.cover-image {
+    height: 30vh;
+    object-fit: cover;
 }
+
+.card {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.image-icons {
+    width: 20px;
+    height: 20px;
+}
+
+.splide {
+    background-color: #273043;
+}
+
+.text-box {
+    background-color: #fff;
+}
+
+@media (min-width: 768px) {
+    .footer-box {
+        background-color: #fff;
+        width: 300px;
+        height: 250px;
+        transform: skew(-15deg);
+        padding: 20px;
+        margin: 0 auto;
+        position: relative;
+        z-index: 1;
+    }
+    .cover-image {
+        height: 50vh;
+        object-fit: cover;
+    }
+    .btn-absolute{
+        position: absolute;
+        left: 10%;
+        width: 300px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .splide__arrow--next {
+        display: none;
+    }
+
+    .splide__arrow--prev {
+        display: none;
+    }
+
+    .card {
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    .image-icons {
+        width: 30px;
+        height: 30px;
+    }
 }
