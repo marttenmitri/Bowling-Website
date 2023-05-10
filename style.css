@@ -51,7 +51,9 @@
 .navbar img {
     max-height: 40px;
 }
-
+.nav-item{
+    margin-right: 40px;
+}
 .btn-icon {
     height: 30px;
     width: 30px;
@@ -177,6 +179,9 @@ footer {
         position: absolute;
         left: 10%;
         width: 300px;
+    }
+    .charts{
+        max-height: 700px;
     }
 }
 
