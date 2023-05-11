@@ -18,42 +18,47 @@
 }
 
 .btn-primary:active {
-    background-color: #5c9964;
-    border-color: #4B7F52;
+    background-color: #5c9964 !important;
+    border-color: #4B7F52 !important;
 }
 
 .btn-secondary {
-    background-color: #273043;
+    background-color: #FA7921;
     border-color: #fff;
 }
 
 .btn-secondary:hover {
-    background-color: #273043;
+    background-color: #fc6907;
     border-color: #fff;
 }
 
 .btn-secondary:active {
-    background-color: #273043;
+    background-color: #FA7921;
     border-color: #fff;
 }
 
-.btn-absolute{
+.btn-absolute {
     position: absolute;
     left: 10%;
     width: 170px;
 }
-.btn-orange{
+
+.btn-orange {
     background-color: #FA7921;
 }
-.btn-orange:hover{
+
+.btn-orange:hover {
     background-color: #fa6a0a;
 }
+
 .navbar img {
     max-height: 40px;
 }
-.nav-item{
+
+.nav-item {
     margin-right: 40px;
 }
+
 .btn-icon {
     height: 30px;
     width: 30px;
@@ -107,7 +112,26 @@ footer {
 
 .card {
     margin: 0 auto;
-    width: 60%;
+    color: #000000;
+    margin-top: 50px;
+}
+
+.bowling-card {
+    width: 50%;
+}
+
+.container-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-house {
+
+}
+
+.card-body {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .image-icons {
@@ -117,18 +141,23 @@ footer {
 
 .splide {
     background-color: #273043;
+    color: #000000;
 }
 
 .text-box {
     background-color: #ffffff;
 }
 
-.hidden{
+.text-right {
+    float: right;
+}
+
+.hidden {
     visibility: hidden;
     display: none;
 }
 
-.alert-success{
+.alert-success {
     visibility: hidden;
     display: none;
     width: 100%;
@@ -137,29 +166,35 @@ footer {
     color: #000000;
 }
 
-.fs-4{
+.fs-4 {
     font-size: 1rem;
 }
-.main-dark{
+
+.main-dark {
     background-color: #273043;
     color: #ffffff;
     border: 1px solid #ffffff;
 }
-.main-white{
+
+.main-white {
     background-color: #ffffff;
     color: #000000;
 }
-.main-orange{
+
+.main-orange {
     background-color: #FA7921;
-    color: #ffffff;
+    color: #ffffff !important;
 }
-.main-green{
+
+.main-green {
     background-color: #4B7F52;
     color: #ffffff;
 }
-.btn-icon-large{
+
+.btn-icon-large {
     height: 82px;
 }
+
 @media (min-width: 768px) {
     .footer-box {
         background-color: #fff;
@@ -171,17 +206,16 @@ footer {
         position: relative;
         z-index: 1;
     }
+
     .cover-image {
         height: 50vh;
         object-fit: cover;
     }
-    .btn-absolute{
+
+    .btn-absolute {
         position: absolute;
         left: 10%;
         width: 300px;
-    }
-    .charts{
-        max-height: 700px;
     }
 }
 
@@ -195,13 +229,12 @@ footer {
         display: none;
     }
 
-    .card {
-        margin: 0 auto;
-        width: 50%;
-    }
-
     .image-icons {
         width: 30px;
         height: 30px;
+    }
+
+    .card-house {
+        min-height: 800px;
     }
 }
