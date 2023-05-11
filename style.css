@@ -117,7 +117,7 @@ footer {
 }
 
 .bowling-card {
-    width: 50%;
+    width: 80%;
 }
 
 .container-flex {
@@ -236,5 +236,8 @@ footer {
 
     .card-house {
         min-height: 800px;
+    }
+    .bowling-card {
+        width: 60%;
     }
 }
