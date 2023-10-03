@@ -88,7 +88,7 @@ footer {
 }
 
 .nav-logo{
-    position: fixed;
+    position: absolute;
     right: 12px;
     top: 13px;
 }
@@ -112,6 +112,11 @@ footer {
 
 .cover-image {
     height: 30vh;
+    object-fit: cover;
+}
+
+.cover-image-bowling {
+    height: 50vh;
     object-fit: cover;
 }
 
