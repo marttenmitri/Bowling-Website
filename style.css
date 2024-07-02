@@ -1,618 +1,77 @@
-.btn-link {
-    color: #000000;
-    text-decoration: none;
-}
-
-.btn-link:hover {
-    color: #000000;
-}
-
 .btn-primary {
     background-color: #4B7F52;
-    border-color: #4B7F52;
-}
-
+    border-color: #4B7F52;}
 .btn-primary:hover {
     background-color: #5c9964;
-    border-color: #4B7F52;
-}
-
+    border-color: #4B7F52;}
 .btn-primary:active {
     background-color: #5c9964 !important;
-    border-color: #4B7F52 !important;
-}
-
+    border-color: #4B7F52 !important;}
 .btn-secondary {
     background-color: #FA7921;
-    border-color: #fff;
-}
-
+    border-color: #fff;}
 .btn-secondary:hover {
     background-color: #fc6907;
-    border-color: #fff;
-}
-
+    border-color: #fff;}
 .btn-secondary:active {
     background-color: #FA7921;
-    border-color: #fff;
-}
-
-.btn-absolute {
-    position: absolute;
-    left: 10%;
-    width: 170px;
-}
-
+    border-color: #fff;}
 .btn-orange {
     background-color: #FA7921;
-    color: #ffffff;
-}
-
+    color: #ffffff;}
 .btn-orange:hover {
     color: #ffffff;
-    background-color: #fa6a0a;
-}
-
+    background-color: #fa6a0a;}
 .navbar img {
-    max-height: 40px;
-}
-
+    max-height: 40px;}
 .nav-item {
-    margin-right: 40px;
-}
-
-.btn-icon {
-    height: 30px;
-    width: 30px;
-}
-
-.image-icons {
-    width: 20px;
-    height: 20px;
-}
-
-.footer-box {
-    background-color: #f8f9fa;
-    padding: 20px;
-    border-radius: 5px;
-}
-
-.footer-box h6 {
-    margin-top: 0;
-}
-
-.footer-box a {
-    color: #4B7F52;
-}
-
-.footer-box a:hover {
-    color: #5c9964;
-}
-
-.footer-box img {
-    filter: grayscale(100%);
-    transition: filter 0.3s;
-}
-
-.footer-box img:hover {
-    filter: grayscale(0%);
-}
-
-.footer-box iframe {
-    border-radius: 5px;
-}
-
-.nav-logo{
-    position: absolute;
-    right: 12px;
-    top: 13px;
-}
-
-.btn-basic {
-    color: #ffffff;
-    background-color: #273043;
-    border-color: #ffffff;
-}
-
-.btn-basic:hover {
-    background-color: #ffffff;
-    color: #273043;
-}
-
+    margin-right: 40px;}
 .container-main {
     background-color: #273043;
-    color: #fff;
-}
-
-.container-white {
-    background-color: #ffffff;
-    color: #000000;
-}
-
-.card {
-    margin: 0 auto;
-    color: #000000;
-    margin-top: 50px;
-    height: auto;
-    overflow: hidden; 
-}
-.btn-link {
-    color: #000000;
-    text-decoration: none;
-}
-
-.btn-link:hover {
-    color: #000000;
-}
-
-.btn-primary {
-    background-color: #4B7F52;
-    border-color: #4B7F52;
-}
-
-.btn-primary:hover {
-    background-color: #5c9964;
-    border-color: #4B7F52;
-}
-
-.btn-primary:active {
-    background-color: #5c9964 !important;
-    border-color: #4B7F52 !important;
-}
-
-.btn-secondary {
-    background-color: #FA7921;
-    border-color: #fff;
-}
-
-.btn-secondary:hover {
-    background-color: #fc6907;
-    border-color: #fff;
-}
-
-.btn-secondary:active {
-    background-color: #FA7921;
-    border-color: #fff;
-}
-
-.btn-absolute {
-    position: absolute;
-    left: 10%;
-    width: 170px;
-}
-
-.btn-orange {
-    background-color: #FA7921;
-    color: #ffffff;
-}
-
-.btn-orange:hover {
-    color: #ffffff;
-    background-color: #fa6a0a;
-}
-
-.navbar img {
-    max-height: 40px;
-}
-
-.nav-item {
-    margin-right: 40px;
-}
-
-.btn-icon {
-    height: 30px;
-    width: 30px;
-}
-
-.cover-image {
-    height: 50vh;
-    object-fit: cover;
-}
-
-.image-icons {
-    width: 20px;
-    height: 20px;
-}
-
-.footer-box {
-    background-color: #f8f9fa;
-    padding: 20px;
-    border-radius: 5px;
-}
-
-.footer-box h6 {
-    margin-top: 0;
-}
-
-.footer-box a {
-    color: #4B7F52;
-}
-
-.footer-box a:hover {
-    color: #5c9964;
-}
-
-.footer-box img {
-    filter: grayscale(100%);
-    transition: filter 0.3s;
-}
-
-.footer-box img:hover {
-    filter: grayscale(0%);
-}
-
-.footer-box iframe {
-    border-radius: 5px;
-}
-
-.nav-logo{
-    position: absolute;
-    right: 12px;
-    top: 13px;
-}
-.btn-basic {
-    color: #ffffff;
-    background-color: #273043;
-    border-color: #ffffff;
-
-}
-
-.btn-basic:hover {
-    background-color: #ffffff;
-    color: #273043;
-}
-
-.container-main {
-    background-color: #273043;
-    color: #fff;
-}
-
-.container-white {
-    background-color: #ffffff;
-    color: #000000;
-}
-
-.cover-image {
-    height: 30vh;
-    object-fit: cover;
-}
-
+    color: #fff;}
 .cover-image-bowling {
     height: 50vh;
-    object-fit: cover;
-}
-
+    object-fit: cover;}
 .card {
     margin: 0 auto;
     color: #000000;
     margin-top: 50px;
     height: auto;
-    overflow: hidden; 
-}
-
+    overflow: hidden;}
 .bowling-card {
-    width: 80%;
-}
-
-.container-flex {
-    display: flex;
-    flex-wrap: wrap;
-}
-
+    width: 80%;}
 .card-house {
     display: flex;
     flex-direction: column;
-    height: 100%;  /* Make sure the card stretches to the full height */
-}
-
+    height: 100%;  /* Make sure the card stretches to the full height */}
 .card-body {
     display: flex;
     flex-direction: column;
-    flex-grow: 1;  /* Allows the body to expand and fill available space */
-}
-
-.button-container {
-    margin-top: auto;  /* Pushes the button container to the bottom */
-}
-
-.image-icons {
-    width: 20px;
-    height: 20px;
-}
-
+    flex-grow: 1;  /* Allows the body to expand and fill available space */}
 .splide {
     background-color: #273043;
-    color: #000000;
-}
-
-.text-right {
-    float: right;
-}
-
-.hidden {
-    visibility: hidden;
-    display: none;
-}
-
+    color: #000000;}
 .fs-4 {
-    font-size: 1rem;
-}
-
-.main-dark {
-    background-color: #273043;
-    color: #ffffff;
-    border: 1px solid #ffffff;
-}
-
-.main-white {
-    background-color: #ffffff;
-    color: #000000;
-}
-
-.main-orange {
-    background-color: #FA7921;
-    color: #ffffff !important;
-}
-
-.main-green {
-    background-color: #4B7F52;
-    color: #ffffff;
-}
-
-.btn-icon-large {
-    height: 82px;
-}
-
+    font-size: 1rem;}
 .btn:hover .btn-icon {
-    display: none;
-  }
-.cover-image {
-    display: none;
-}
-
-.img-diagonal-cut-left {
-    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
-}
-
-.img-diagonal-cut-right {
-    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
-}
-
-
+    display: none;}
 .btn-arrow {
     padding: 8px 16px; /* Standard padding */
     font-size: 16px; /* Readable font size */
     margin-top: 20px; /* Space above the button */
     font-weight: bold;
-    transition: background-color 0.3s ease-in-out, transform 0.3s ease;
-}
-
-.btn-primary {
-    background-color: #4B7F52; /* Green background */
-    border: none; /* Removes border */
-}
-
-.btn-primary:hover {
-    background-color: #36703D; /* Darker green on hover */
-}
-
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease;}
 .img-fluid {
     width: 100%; /* Ensures the image is always full width of its container */
     height: 300px; /* Standard height for all images */
-    object-fit: cover; /* Ensures images cover the area without stretching */
-}
+    object-fit: cover; /* Ensures images cover the area without stretching */}
 .border-container {
-    margin-bottom: 10px;
-}
-
-@media (min-width: 768px) {
-    .footer-box {
-        background-color: #fff;
-        width: 300px;
-        height: 250px;
-        transform: skew(-15deg);
-        padding: 20px;
-        margin: 0 auto;
-        position: relative;
-        z-index: 1;
-    }
-
-    .cover-image {
-        display: inline;
-        height: 50vh;
-        width: 70%;
-    }
-    .cover-image-container {
-        
-        height: 50vh;
-        width: 100%;
-        position: relative;
-        display: inline-block;
-      }
-      
-      .vertical-ad {
-        
-        position: absolute;
-        top: 0;
-        right: 0;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: rgba(0, 0, 0, 0.7); /* Optional background color for the ad container */
-      }
-      
-      .vertical-ad img {
-        max-width: 100%;
-        height: 50vh;
-      }
-
-    .btn-absolute {
-        position: absolute;
-        left: 10%;
-        width: 300px;
-    }
-    .btn {
-        width: 90%; /* Reduces the button width to fit within the card */
-        margin: 0 auto 10px; /* Centers the button and adds spacing below */
-    }
-
-    .img-diagonal-cut-left {
-        clip-path: polygon(0 0, 100% 0%, 90% 100%, 0% 100%);
-        transition: clip-path 0.3s ease-in-out;
-    }
-    
-    .img-diagonal-cut-left:hover {
-        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
-    }
-    
-    /* Diagonal cut for images on the right, cut facing left */
-    .img-diagonal-cut-right {
-        clip-path: polygon(0 0, 90% 0%, 100% 100%, 0% 100%);
-        transition: clip-path 0.3s ease-in-out;
-    }
-    
-    .img-diagonal-cut-right:hover {
-        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
-    }
-    
-}
-
-@media (min-width: 1200px) {
-
-    .splide__arrow--next {
-        display: none;
-    }
-
-    .splide__arrow--prev {
-        display: none;
-    }
-
-    .image-icons {
-        width: 30px;
-        height: 30px;
-    }
-
-    .card-house {
-        display: flex;
-        flex-direction: column; /* Makes the card flex container to manage inner items */
-        margin: 10px; /* Adjust margin for spacing */
-        flex: 1 1 100%;
-    }
-    .bowling-card {
-        width: 60%;
-    }
-    .img-diagonal-cut-left {
-        clip-path: polygon(0 0, 100% 0%, 95% 100%, 0% 100%);
-        transition: clip-path 0.3s ease-in-out;
-    }
-    
-    .img-diagonal-cut-left:hover {
-        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
-    }
-    
-    /* Diagonal cut for images on the right, cut facing left */
-    .img-diagonal-cut-right {
-        clip-path: polygon(0 0, 95% 0%, 100% 100%, 0% 100%);
-        transition: clip-path 0.3s ease-in-out;
-    }
-    
-    .img-diagonal-cut-right:hover {
-        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
-    }
-}
-.bowling-card {
-    width: 80%;
-}
-
-.container-flex {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.card-house {
-    display: flex;
-    flex-direction: column;
-    height: 100%;  /* Make sure the card stretches to the full height */
-}
-
-.card-body {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;  /* Allows the body to expand and fill available space */
-}
-
-.button-container {
-    margin-top: auto;  /* Pushes the button container to the bottom */
-}
-
-.image-icons {
-    width: 20px;
-    height: 20px;
-}
-
-.splide {
-    background-color: #273043;
-    color: #000000;
-}
-
-.text-right {
-    float: right;
-}
-
-.hidden {
-    visibility: hidden;
-    display: none;
-}
-
-.fs-4 {
-    font-size: 1rem;
-}
-
-.main-dark {
-    background-color: #273043;
-    color: #ffffff;
-    border: 1px solid #ffffff;
-}
-
-.main-white {
-    background-color: #ffffff;
-    color: #000000;
-}
-
-.main-orange {
-    background-color: #FA7921;
-    color: #ffffff !important;
-}
-
-.main-green {
-    background-color: #4B7F52;
-    color: #ffffff;
-}
-
-.btn-icon-large {
-    height: 82px;
-}
-
-.btn:hover .btn-icon {
-    display: none;
-}
-
+    margin-bottom: 10px;}
 .cover-image-container {
     position: relative;
     height: auto; /* Adjust the height as needed */
     overflow: hidden;
-    background: #273043; /* Fallback background color */
-}
-
-.cover-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    filter: blur(5px); /* Background blur effect */
-    -webkit-filter: blur(5px); /* Safari support */
-}
-
+    background: #273043; /* Fallback background color */}
 .cover-image-overlay {
     position: absolute;
     top: 0;
@@ -627,157 +86,63 @@
     padding: 20px;
     box-sizing: border-box; /* Ensure padding is included in the width/height */
     z-index: 10; /* Ensure the overlay is above the image */
-    height: 100%;
-}
-
+    height: 100%;}
 .cover-title {
     margin-bottom: 20px;
     z-index: 11; /* Ensure the title is above the image */
-    font-size: 1.5rem; /* Adjusted font size for smaller screens */
-}
-
+    font-size: 1.5rem; /* Adjusted font size for smaller screens */}
 .cover-text {
+    text-align: left;
     max-width: 800px;
     z-index: 11; /* Ensure the text is above the image */
     font-size: 1rem; /* Adjusted font size for smaller screens */
-    padding: 10px; /* Added padding for better spacing */
-}
+    padding: 10px; /* Added padding for better spacing */}
 
-@media (min-width: 768px) {
-    .footer-box {
-        background-color: #fff;
-        width: 300px;
-        height: 250px;
-        transform: skew(-15deg);
-        padding: 20px;
-        margin: 0 auto;
-        position: relative;
-        z-index: 1;
-    }
-
-    .cover-image {
+.cover-image {
         display: inline;
         height: 50vh;
-        width: 100%;
-    }
-
-    .cover-image-container {
+        object-fit: cover;
+        filter: blur(5px); /* Background blur effect */
+        -webkit-filter: blur(5px); /* Safari support */}
+.cover-image-container {
+        
         height: 50vh;
         width: 100%;
         position: relative;
-        display: inline-block;
-    }
-
-    .vertical-ad {
-        position: absolute;
-        top: 0;
-        right: 0;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background-color: rgba(0, 0, 0, 0.7); /* Optional background color for the ad container */
-    }
-
-    .vertical-ad img {
-        max-width: 100%;
-        height: 50vh;
-    }
-
-    .btn-absolute {
-        position: absolute;
-        left: 10%;
-        width: 300px;
-    }
-
-    .btn {
+        display: inline-block;}
+.btn {
         width: 90%; /* Reduces the button width to fit within the card */
-        margin: 0 auto 10px; /* Centers the button and adds spacing below */
-    }
-
-    .img-diagonal-cut-left {
+        margin: 0 auto 10px; /* Centers the button and adds spacing below */}
+.img-diagonal-cut-left {
         clip-path: polygon(0 0, 100% 0%, 90% 100%, 0% 100%);
-        transition: clip-path 0.3s ease-in-out;
-    }
-
-    .img-diagonal-cut-left:hover {
-        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
-    }
-
-    .img-diagonal-cut-right {
+        transition: clip-path 0.3s ease-in-out;}
+.img-diagonal-cut-left:hover {
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);}
+/* Diagonal cut for images on the right, cut facing left */
+.img-diagonal-cut-right {
         clip-path: polygon(0 0, 90% 0%, 100% 100%, 0% 100%);
-        transition: clip-path 0.3s ease-in-out;
-    }
+        transition: clip-path 0.3s ease-in-out;}
+.img-diagonal-cut-right:hover {
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);}
 
-    .img-diagonal-cut-right:hover {
-        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
-    }
-}
 
-@media (min-width: 1200px) {
-    .splide__arrow--next {
-        display: none;
-    }
-
-    .splide__arrow--prev {
-        display: none;
-    }
-
-    .image-icons {
-        width: 30px;
-        height: 30px;
-    }
-
-    .card-house {
-        display: flex;
-        flex-direction: column; /* Makes the card flex container to manage inner items */
-        margin: 10px; /* Adjust margin for spacing */
-        flex: 1 1 100%;
-    }
-
-    .bowling-card {
-        width: 60%;
-    }
-
-    .img-diagonal-cut-left {
-        clip-path: polygon(0 0, 100% 0%, 95% 100%, 0% 100%);
-        transition: clip-path 0.3s ease-in-out;
-    }
-
-    .img-diagonal-cut-left:hover {
-        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
-    }
-
-    .img-diagonal-cut-right {
-        clip-path: polygon(0 0, 95% 0%, 100% 100%, 0% 100%);
-        transition: clip-path 0.3s ease-in-out;
-    }
-
-    .img-diagonal-cut-right:hover {
-        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
-    }
-}
-
-@media (max-width: 767px) {
+@media (max-width: 768px) {
     .cover-image {
-        display: none; /* Hide the image on mobile */
-    }
-    
+            display: inline;
+            height: 70vh;
+            width: 70%;}
     .cover-image-container {
-        height: auto; /* Ensure the container adjusts based on content */
-    }
-
-    .cover-image-overlay {
-        position: relative;
-        height: auto; /* Ensure the container adjusts based on content */
-    }
-
-    .cover-title {
-        font-size: 1.2rem; /* Adjust font size for mobile */
-    }
-
-    .cover-text {
-        font-size: 0.9rem; /* Adjust font size for mobile */
-        padding: 15px; /* Adjust padding for mobile */
-    }
+            height: 70vh;
+            width: 100%;
+            position: relative;
+            display: inline-block;}
 }
+
+@media (max-width: 993px) {
+    .img-diagonal-cut-left {
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+        transition: clip-path 0.3s ease-in-out;}
+    .img-diagonal-cut-right {
+            clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+            transition: clip-path 0.3s ease-in-out;}
+    }
