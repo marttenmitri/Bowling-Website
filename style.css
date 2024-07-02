@@ -45,9 +45,11 @@
 
 .btn-orange {
     background-color: #FA7921;
+    color: #ffffff;
 }
 
 .btn-orange:hover {
+    color: #ffffff;
     background-color: #fa6a0a;
 }
 
@@ -74,17 +76,35 @@
     height: 20px;
 }
 
-footer {
-    color: black;
+.footer-box {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
 }
 
-.footer-box {
-    background-color: #fff;
-    width: 100%;
-    height: 250px;
-    padding: 20px;
-    z-index: 1;
-    border-radius: 10px 10px 0px 0px;
+.footer-box h6 {
+    margin-top: 0;
+}
+
+.footer-box a {
+    color: #4B7F52;
+}
+
+.footer-box a:hover {
+    color: #5c9964;
+}
+
+.footer-box img {
+    filter: grayscale(100%);
+    transition: filter 0.3s;
+}
+
+.footer-box img:hover {
+    filter: grayscale(0%);
+}
+
+.footer-box iframe {
+    border-radius: 5px;
 }
 
 .nav-logo{
@@ -93,11 +113,15 @@ footer {
     top: 13px;
 }
 .btn-basic {
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #273043;
+    border-color: #ffffff;
+
 }
 
 .btn-basic:hover {
-    background-color: #273043;
+    background-color: #ffffff;
+    color: #273043;
 }
 
 .container-main {
@@ -124,7 +148,8 @@ footer {
     margin: 0 auto;
     color: #000000;
     margin-top: 50px;
-    max-height:500px; 
+    height: auto;
+    overflow: hidden; 
 }
 
 .bowling-card {
@@ -137,12 +162,19 @@ footer {
 }
 
 .card-house {
-
+    display: flex;
+    flex-direction: column;
+    height: 100%;  /* Make sure the card stretches to the full height */
 }
 
 .card-body {
-    margin-left: 10px;
-    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;  /* Allows the body to expand and fill available space */
+}
+
+.button-container {
+    margin-top: auto;  /* Pushes the button container to the bottom */
 }
 
 .image-icons {
@@ -153,10 +185,6 @@ footer {
 .splide {
     background-color: #273043;
     color: #000000;
-}
-
-.text-box {
-    background-color: #ffffff;
 }
 
 .text-right {
@@ -202,6 +230,41 @@ footer {
   }
 .cover-image {
     display: none;
+}
+
+.img-diagonal-cut-left {
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.img-diagonal-cut-right {
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+}
+
+
+.btn-arrow {
+    padding: 8px 16px; /* Standard padding */
+    font-size: 16px; /* Readable font size */
+    margin-top: 20px; /* Space above the button */
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #4B7F52; /* Green background */
+    border: none; /* Removes border */
+}
+
+.btn-primary:hover {
+    background-color: #36703D; /* Darker green on hover */
+}
+
+.img-fluid {
+    width: 100%; /* Ensures the image is always full width of its container */
+    height: 300px; /* Standard height for all images */
+    object-fit: cover; /* Ensures images cover the area without stretching */
+}
+.border-container {
+    margin-bottom: 10px;
 }
 
 @media (min-width: 768px) {
@@ -251,6 +314,30 @@ footer {
         left: 10%;
         width: 300px;
     }
+    .btn {
+        width: 90%; /* Reduces the button width to fit within the card */
+        margin: 0 auto 10px; /* Centers the button and adds spacing below */
+    }
+
+    .img-diagonal-cut-left {
+        clip-path: polygon(0 0, 100% 0%, 90% 100%, 0% 100%);
+        transition: clip-path 0.3s ease-in-out;
+    }
+    
+    .img-diagonal-cut-left:hover {
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    }
+    
+    /* Diagonal cut for images on the right, cut facing left */
+    .img-diagonal-cut-right {
+        clip-path: polygon(0 0, 90% 0%, 100% 100%, 0% 100%);
+        transition: clip-path 0.3s ease-in-out;
+    }
+    
+    .img-diagonal-cut-right:hover {
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    }
+    
 }
 
 @media (min-width: 1200px) {
@@ -269,9 +356,30 @@ footer {
     }
 
     .card-house {
-        min-height: 800px;
+        display: flex;
+        flex-direction: column; /* Makes the card flex container to manage inner items */
+        margin: 10px; /* Adjust margin for spacing */
+        flex: 1 1 100%;
     }
     .bowling-card {
         width: 60%;
+    }
+    .img-diagonal-cut-left {
+        clip-path: polygon(0 0, 100% 0%, 95% 100%, 0% 100%);
+        transition: clip-path 0.3s ease-in-out;
+    }
+    
+    .img-diagonal-cut-left:hover {
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    }
+    
+    /* Diagonal cut for images on the right, cut facing left */
+    .img-diagonal-cut-right {
+        clip-path: polygon(0 0, 95% 0%, 100% 100%, 0% 100%);
+        transition: clip-path 0.3s ease-in-out;
+    }
+    
+    .img-diagonal-cut-right:hover {
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
     }
 }
