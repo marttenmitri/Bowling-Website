@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Männimäe Külalistemaja</title>
+    <link rel="icon" type="image/png" href="./icons/mannimae-bowling.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+        </script>
+    <script src="translations.js"></script>
+    <script src="gallery.js"></script>
+</head>
+
+<body class="container-main">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html"><img src="./img/mannimae-bowling.png" class="img-fluid"
+                    alt="logo" style="max-height: 40px;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./rooms.html" data-translate-key="accommodation_title">Majutus</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-translate-key="bowling_title" href="./bowling.html">Bowling</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./banquet.html" data-translate-key="banquet_halls_title">Peosaalid</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./saunas.html" data-translate-key="saunas_title">Saunad</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./catering.html" data-translate-key="catering_title">Toitlustus</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./entertainment.html"
+                            data-translate-key="entertainment_title">Meelelahutus</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="./icons/en-flag.png" alt="English" id="currentLanguage"
+                                style="width: 24px; height: 24px;">
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
+                            <li><a class="dropdown-item" href="#" onclick="changeLanguage('en-flag.png')"><img
+                                        src="./icons/en-flag.png" alt="English" style="width: 24px; height: 24px;">
+                                    English</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="changeLanguage('et-flag.png')"><img
+                                        src="./icons/et-flag.png" alt="Eesti" style="width: 24px; height: 24px;">
+                                    Eesti</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#" onclick="changeLanguage('ru-flag.png')"><img
+                                        src="./icons/ru-flag.png" alt="Русский" style="width: 24px; height: 24px;">
+                                    Русский</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="changeLanguage('fi-flag.png')"><img
+                                        src="./icons/fi-flag.png" alt="Suomi" style="width: 24px; height: 24px;">
+                                    Suomi</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid text-centerbox py-5">
+        <h2 class="text-center" style="color: #273043;" data-translate-key="">Peosaalid</h2>
+        <p class="text-left cover-text" style="color: rgb(106, 106, 106); padding: 5px;" data-translate-key="">Kui
+            vajate ruume firma- või seltskonnaürituse läbiviimiseks, siis olete õiges kohas. Meie poolt on parimad
+            lahendused ja kliendisõbralik teenindus! Pakume võimalust tähtpäevade, jõulupidude, seminaride,
+            kokkutulekute, firma- ja seltskonnaürituste läbiviimiseks. Meil leidub vahvat tegevust nii lastele kui
+            täiskasvanutele. Valikus on mitmed erinevate suuruste ning võimalustega peo- ja saunaruumid ning bowlingu-
+            ja piljardisaal. Et pidu oleks täiuslik on kõiki meie teenuseid võimalik vastavalt Teie soovidele omavahel
+            kombineerida. Toitlustamine, peo- ja peielauad ettetellimisel.</p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-6 mb-4">
+                <div class="card card-house mx-2">
+                    <img src="./img/out-large.png" class="card-img-top" onclick="openModal('mainHouse');"
+                        alt="cover-photo-people">
+                    <div class="card-body d-flex flex-column">
+                        <h2><strong>Väike saal</strong></h2>
+                        <div class="row mt-5">
+                            <div class="col-12">
+                                <p></p>Kuni 15 inimesele sobiv väike semniari- ja peoruum (soovi korral saab kasutada
+                                koos minibasseiniga saunaruumiga)
+                                Hind kokkuleppel (Hind sõltub klientide vajadustest, lisateenuste hulgast, inimeste
+                                arvust jne.) Küsi julgesti pakkumist!</p>
+                            </div>
+                        </div>
+                        <div class="mt-auto">
+                            <div class="row justify-content-center mt-5">
+                                <div class="col-12 col-md-6 mb-3 text-center">
+                                    <button onclick="openModal('mainHouse');"
+                                        class="btn btn-secondary col-12 col-md-10">Galerii</button>
+                                </div>
+                                <div class="col-12 col-md-6 mb-3 text-center">
+                                    <button onclick="location.href='tel:435 4845'"
+                                        class="btn btn-primary col-12 col-md-10">Helista</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-6 mb-4">
+                <div class="card card-house mx-2">
+                    <img src="./img/out-large-2.png" class="card-img-top" onclick="openModal('greyHouse');"
+                        alt="cover-photo-people">
+                    <div class="card-body d-flex flex-column">
+                        <h2><strong>Kaminasaal</strong></h2>
+                        <div class="row justify-content-center mt-5">
+                            <div class="col-12">
+                                <p>Kuni 40 inimesele sobiv kaminaga semniari- ja peosaal (soovi korral saab kasutada
+                                    koos minibasseiniga saunaruumiga)
+                                    Hind kokkuleppel (Hind sõltub klientide vajadustest, lisateenuste hulgast, inimeste
+                                    arvust jne.) Küsi julgesti pakkumist!.</p>
+                            </div>
+                        </div>
+                        <div class="mt-auto">
+                            <div class="row justify-content-center mt-5">
+                                <div class="col-12 col-md-6 mb-3 text-center">
+                                    <button onclick="openModal('greyHouse');"
+                                        class="btn btn-secondary col-12 col-md-10">Galerii</button>
+                                </div>
+                                <div class="col-12 col-md-6 mb-3 text-center">
+                                    <button onclick="location.href='tel:435 4845'"
+                                        class="btn btn-primary col-12 col-md-10">Helista</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-6 mb-4">
+                <div class="card card-house mx-2">
+                    <img src="./img/out-large-3.png" class="card-img-top" onclick="openModal('abHouse');"
+                        alt="cover-photo-people">
+                    <div class="card-body d-flex flex-column">
+                        <h2><strong>Salong-kino/seminariruum</strong></h2>
+                        <div class="row justify-content-center mt-5">
+                            <div class="col-12">
+                                <p>Kuni 50 kohaline kino- ja seminariruum mida saab kasutada seminarideks,
+                                    teema-üritusteks ja ka privaatseteks kinoseanssideks nii ürituste kui laste
+                                    sünniäevade osana.
+                                    Hind kokkuleppel (Hind sõltub klientide vajadustest, lisateenuste hulgast, inimeste
+                                    arvust jne.) Küsi julgesti pakkumist!</p>
+                            </div>
+                        </div>
+                        <div class="mt-auto">
+                            <div class="row justify-content-center mt-5">
+                                <div class="col-12 col-md-6 mb-3 text-center">
+                                    <button onclick="openModal('abHouse');"
+                                        class="btn btn-secondary col-12 col-md-10">Galerii</button>
+                                </div>
+                                <div class="col-12 col-md-6 mb-3 text-center">
+                                    <button onclick="location.href='tel:435 4845'"
+                                        class="btn btn-primary col-12 col-md-10">Helista</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-lg-6 mb-4">
+                <div class="card card-house mx-2">
+                    <img src="./img/out-large-4.png" class="card-img-top" onclick="openModal('smallHouse');"
+                        alt="cover-photo-people">
+                    <div class="card-body d-flex flex-column">
+                        <h2><strong>Peasaal</strong></h2>
+                        <div class="row justify-content-center mt-5">
+                            <div class="col-12">
+                                <p>Kuni 150 inimese teenindamiseks sobiv rõduga peasaal samas hoones meie kohviku-,
+                                    bowlingu- ja kinokompleksiga. Peasaalis on lava koos valgus- ja helitehnikaga ning
+                                    kokkuleppel saab üritustele tellida ka teatrietendusi.
+                                    Hind kokkuleppel (Hind sõltub klientide vajadustest, lisateenuste hulgast, inimeste
+                                    arvust jne.) Küsi julgesti pakkumist!</p>
+                            </div>
+                        </div>
+                        <div class="mt-auto">
+                            <div class="row justify-content-center mt-5">
+                                <div class="col-12 col-md-6 mb-3 text-center">
+                                    <button onclick="openModal('smallHouse');"
+                                        class="btn btn-secondary col-12 col-md-10">Galerii</button>
+                                </div>
+                                <div class="col-12 col-md-6 mb-3 text-center">
+                                    <button onclick="location.href='tel:435 4845'"
+                                        class="btn btn-primary col-12 col-md-10">Helista</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="mainHouse" class="modal">
+        <span class="close cursor" onclick="closeModal('mainHouse')">&times;</span>
+        <div class="modal-content">
+            <div id="mainHouseSlides"></div>
+            <a class="prev" onclick="plusSlides(-1, 'mainHouse')">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 'mainHouse')">&#10095;</a>
+        </div>
+    </div>
+
+    <div id="greyHouse" class="modal">
+        <span class="close cursor" onclick="closeModal('greyHouse')">&times;</span>
+        <div class="modal-content">
+            <div id="greyHouseSlides"></div>
+            <a class="prev" onclick="plusSlides(-1, 'greyHouse')">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 'greyHouse')">&#10095;</a>
+        </div>
+    </div>
+
+    <div id="abHouse" class="modal">
+        <span class="close cursor" onclick="closeModal('abHouse')">&times;</span>
+        <div class="modal-content">
+            <div id="abHouseSlides"></div>
+            <a class="prev" onclick="plusSlides(-1, 'abHouse')">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 'abHouse')">&#10095;</a>
+        </div>
+    </div>
+
+    <div id="smallHouse" class="modal">
+        <span class="close cursor" onclick="closeModal('smallHouse')">&times;</span>
+        <div class="modal-content">
+            <div id="smallHouseSlides"></div>
+            <a class="prev" onclick="plusSlides(-1, 'smallHouse')">&#10094;</a>
+            <a class="next" onclick="plusSlides(1, 'smallHouse')">&#10095;</a>
+        </div>
+    </div>
+
+    <footer class="bg-light text-dark mt-5">
+        <div class="container-fluid">
+            <div class="row py-4">
+                <div class="col-md-3">
+                    <h6 data-translate-key="bowling_title">Bowling</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="tel:+3724354844" class="text-decoration-none text-dark">+372 435 4844</a></li>
+                        <li><a href="mailto:bowling@mannimaja.ee"
+                                class="text-decoration-none text-dark">bowling@mannimaja.ee</a></li>
+                        <li>Riia mnt 52d, Viljandi</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6 data-translate-key="accommodation_title">Majutus</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="tel:+3724354844" class="text-decoration-none text-dark">+372 435 4844</a></li>
+                        <li><a href="mailto:info@mannimaja.ee"
+                                class="text-decoration-none text-dark">info@mannimaja.ee</a></li>
+                        <li>Riia mnt 52d, Viljandi</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6 data-translate-key="links_title">Lingid</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="./about.html" class="text-decoration-none text-dark"
+                                data-translate-key="about">Meist</a></li>
+                        <li><a href="./careers.html" class="text-decoration-none text-dark"
+                                data-translate-key="careers">Tööpakkumised</a></li>
+                        <li><a href="./contact.html" class="text-decoration-none text-dark"
+                                data-translate-key="contact">Kontakt</a></li>
+                        <li><a href="https://www.facebook.com/pages/M%C3%A4nnim%C3%A4e-K%C3%BClalistemaja/410364585719953"
+                                class="text-decoration-none text-dark" data-translate-key="facebook">Facebook</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2093.8151545413457!2d25.57447217732844!3d58.345919789346084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ec98efc118b095%3A0xf2e8bd0700874cd7!2zTcOkbm5pbcOkZSBrw7xsYWxpc3RlbWFqYQ!5e0!3m2!1set!2see!4v1719907494035!5m2!1set!2see"
+                        width="100%" height="170" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="mb-0">© 2024 Männimäe Külalistemaja. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

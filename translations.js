@@ -19,7 +19,9 @@ const translations = {
       "about": "About",
       "careers": "Careers",
       "contact": "Contact",
-      "facebook": "Facebook"
+      "facebook": "Facebook",
+      "welcome_services_header": "SERVICES",
+      "welcome_services_text": "Explore what we have to offer"
     },
     "et": {
       "welcome_message": "Teretulemast Männimäele",
@@ -41,7 +43,9 @@ const translations = {
       "about": "Meist",
       "careers": "Tööpakkumised",
       "contact": "Kontakt",
-      "facebook": "Facebook"
+      "facebook": "Facebook",
+      "welcome_services_header": "TEENUSED",
+      "welcome_services_text": "Leia sobiv teenus ja uuri lisaks"
     },
     "ru": {
       "welcome_message": "Добро пожаловать в Männimäe",
@@ -63,7 +67,9 @@ const translations = {
       "about": "О нас",
       "careers": "Вакансии",
       "contact": "Контакт",
-      "facebook": "Facebook"
+      "facebook": "Facebook",
+      "welcome_services_header": "УСЛУГИ",
+      "welcome_services_text": "Найдите подходящую услугу и узнайте больше"
     },
     "fi": {
       "welcome_message": "Tervetuloa Männimäeen",
@@ -85,12 +91,14 @@ const translations = {
       "about": "Meistä",
       "careers": "Työpaikat",
       "contact": "Yhteystiedot",
-      "facebook": "Facebook"
+      "facebook": "Facebook",
+      "welcome_services_header": "PALVELUT",
+      "welcome_services_text": "Löydä sopiva palvelu ja lue lisää"
     }
   };
 
 document.addEventListener("DOMContentLoaded", function() {
-  const savedLanguage = localStorage.getItem("language") || 'en-flag.png';
+  const savedLanguage = localStorage.getItem("language") || 'et-flag.png';
   changeLanguage(savedLanguage);
 });
 

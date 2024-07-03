@@ -11,61 +11,65 @@
   <script src="translations.js"></script>
 </head>
 <body class="container-main">
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="./index.html"><img src="./img/mannimae-bowling.png" class="img-fluid" alt="logo" style="max-height: 40px;"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="./rooms.html" data-translate-key="accommodation_title">Majutus</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" data-translate-key="bowling_title" href="./bowling.html">Bowling</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./services.html" data-translate-key="banquet_halls_title">Peosaalid</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./services.html" data-translate-key="saunas_title">Saunad</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./services.html" data-translate-key="catering_title">Toitlustus</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./services.html" data-translate-key="entertainment_title">Meelelahutus</a>
-                </li>
-            </ul>
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <img src="./icons/en-flag.png" alt="English" id="currentLanguage" style="width: 24px; height: 24px;">
-                    </a>
-                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
-                        <li><a class="dropdown-item" href="#" onclick="changeLanguage('en-flag.png')"><img src="./icons/en-flag.png" alt="English" style="width: 24px; height: 24px;"> English</a></li>
-                        <li><a class="dropdown-item" href="#" onclick="changeLanguage('et-flag.png')"><img src="./icons/et-flag.png" alt="Eesti" style="width: 24px; height: 24px;"> Eesti</a></li>
-                        <li><a class="dropdown-item" href="#" onclick="changeLanguage('ru-flag.png')"><img src="./icons/ru-flag.png" alt="Русский" style="width: 24px; height: 24px;"> Русский</a></li>
-                        <li><a class="dropdown-item" href="#" onclick="changeLanguage('fi-flag.png')"><img src="./icons/fi-flag.png" alt="Suomi" style="width: 24px; height: 24px;"> Suomi</a></li>
-                    </ul>
-                </li>
-            </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html"><img src="./img/mannimae-bowling.png" class="img-fluid" alt="logo" style="max-height: 40px;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./rooms.html" data-translate-key="accommodation_title">Majutus</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-translate-key="bowling_title" href="./bowling.html">Bowling</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./banquet.html" data-translate-key="banquet_halls_title">Peosaalid</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./saunas.html" data-translate-key="saunas_title">Saunad</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./catering.html" data-translate-key="catering_title">Toitlustus</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./entertainment.html" data-translate-key="entertainment_title">Meelelahutus</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="./icons/en-flag.png" alt="English" id="currentLanguage" style="width: 24px; height: 24px;">
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
+                            <li><a class="dropdown-item" href="#" onclick="changeLanguage('en-flag.png')"><img src="./icons/en-flag.png" alt="English" style="width: 24px; height: 24px;"> English</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="changeLanguage('et-flag.png')"><img src="./icons/et-flag.png" alt="Eesti" style="width: 24px; height: 24px;"> Eesti</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="changeLanguage('ru-flag.png')"><img src="./icons/ru-flag.png" alt="Русский" style="width: 24px; height: 24px;"> Русский</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="changeLanguage('fi-flag.png')"><img src="./icons/fi-flag.png" alt="Suomi" style="width: 24px; height: 24px;"> Suomi</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-  </nav>
+    </nav>
   
   <div class="cover-image-container">
-    <div class="cover-image-overlay">
-      <h1 class="cover-title" data-translate-key="welcome_message">Teretulemast Männimäele</h1>
-      <p class="cover-text" data-translate-key="intro_text">2001 aastast avatud Männimäe külalistemaja on hubane peatuspaik rahulikus Viljandi linnas. Pakume Teile majutus- ja toitlustusteenust koos vaba aja veetmise võimalustega. Pakume majutust nii üksikkülastajatele kui ka suurematele gruppidele. Meie puhke ja vabaajakeskus on sobiv koht puhkuseks, pidudeks, kui ka ettevõtetele seminaride ja firmaürituste korraldamiseks. Peahoones asuvad kohvik, bowlingu- ja piljardisaal, erinevad peo- ning seminariruumid. Sisehoovis paiknevad spordiväljakud ning tiigi kaldal hubased istumise ja grillimise alad kus saate mõnusalt aega veeta.</p>
+    <div class="cover-image-overlay py-5">
+        <h2 class="text-center" style="color: #ffffff;" data-translate-key="welcome_message">Teretulemast Männimäele</h2>
+        <p class="cover-text" data-translate-key="intro_text">2001 aastast avatud Männimäe külalistemaja on hubane peatuspaik rahulikus Viljandi linnas. Pakume Teile majutus- ja toitlustusteenust koos vaba aja veetmise võimalustega. Pakume majutust nii üksikkülastajatele kui ka suurematele gruppidele. Meie puhke ja vabaajakeskus on sobiv koht puhkuseks, pidudeks, kui ka ettevõtetele seminaride ja firmaürituste korraldamiseks. Peahoones asuvad kohvik, bowlingu- ja piljardisaal, erinevad peo- ning seminariruumid. Sisehoovis paiknevad spordiväljakud ning tiigi kaldal hubased istumise ja grillimise alad kus saate mõnusalt aega veeta.</p>
     </div>
     <img src="./img/main-dark-out.png" class="img-fluid w-100 cover-image" alt="Cover-img-bridge-with-houses">
   </div>
-
+  
+  <div class="container-fluid py-5">
+    <p class="text-center" style="color: rgb(106, 106, 106);" data-translate-key="welcome_services_header">TEENUSED</p>
+    <h2 class="text-center" style="color: #273043;" data-translate-key="welcome_services_text">Leia sobiv teenus ja uuri lisaks</h2>
+  </div>
   <div class="container-fluid p-0 m-0">
 
-    <div class="row align-items-center g-0 bg-white text-dark border-container" style="width: 100%;">  
+    <div class="row align-items-center g-0 bg-white text-dark border-container">  
         <div class="col-12 col-lg-6 p-0"> <!-- Remove padding for full width usage -->
             <img src="./img/out-large-2.png" class="img-fluid img-diagonal-cut-left w-100" alt="Descriptive Alt Text" style="min-height: 300px;">
         </div>
@@ -76,8 +80,7 @@
         </div>
     </div>
     
-    <!-- Second Row: White background -->
-    <div class="row align-items-center g-0 bg-white text-dark border-container" style="width: 100%;"> 
+    <div class="row align-items-center g-0 bg-white text-dark border-container"> 
       <div class="col-12 col-lg-6 p-0"> <!-- Order change for desktop with order-lg-2 -->
             <img src="./img/out-large.png" class="img-fluid img-diagonal-cut-right w-100" alt="Descriptive Alt Text" style="min-height: 300px;">
         </div>
@@ -88,7 +91,7 @@
         </div>
     </div>
 
-    <div class="row align-items-center g-0 bg-white text-dark border-container" style="width: 100%;"> 
+    <div class="row align-items-center g-0 bg-white text-dark border-container"> 
         <div class="col-12 col-lg-6 p-0"> <!-- Remove padding for full width usage -->
             <img src="./img/converents-room.jpg" class="img-fluid img-diagonal-cut-left w-100" alt="Descriptive Alt Text" style="min-height: 300px;">
         </div>
@@ -99,8 +102,7 @@
         </div>
     </div>
     
-    <!-- Second Row: White background -->
-    <div class="row align-items-center g-0 bg-white text-dark border-container" style="width: 100%;"> 
+    <div class="row align-items-center g-0 bg-white text-dark border-container"> 
         <div class="col-12 col-lg-6 p-0"> <!-- Order change for desktop with order-lg-2 -->
             <img src="./img/sauna.jpg" class="img-fluid img-diagonal-cut-right w-100" alt="Descriptive Alt Text" style="min-height: 300px;">
         </div>
@@ -111,8 +113,7 @@
         </div>
     </div>
 
-    <!-- Third Row: Custom blue background -->
-    <div class="row align-items-center g-0 bg-white text-dark border-container" style="width: 100%;"> 
+    <div class="row align-items-center g-0 bg-white text-dark border-container"> 
         <div class="col-12 col-lg-6 p-0"> <!-- Remove padding for full width usage -->
             <img src="./img/food.jpg" class="img-fluid img-diagonal-cut-left w-100" alt="Descriptive Alt Text" style="min-height: 300px;">
         </div>
@@ -123,8 +124,7 @@
         </div>
     </div>
 
-    <!-- Fourth Row: White background -->
-    <div class="row align-items-center g-0 bg-white text-dark border-container" style="width: 100%;"> 
+    <div class="row align-items-center g-0 bg-white text-dark border-container"> 
       <div class="col-12 col-lg-6 p-0"> <!-- Order change for desktop with order-lg-2 -->
             <img src="./img/tennis-court.jpg" class="img-fluid img-diagonal-cut-right w-100" alt="Descriptive Alt Text" style="min-height: 300px;">
         </div>
