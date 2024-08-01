@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Männimäe Külalistemaja</title>
+    <title data-translate-key="page_title">Männimäe Külalistemaja</title>
     <link rel="icon" type="image/png" href="./icons/mannimae-bowling.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -15,7 +15,7 @@
     <script src="translations.js"></script>
 </head>
 
-<body class="container-main">
+<body class="d-flex flex-column min-vh-100 container-main">
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <div class="container-fluid">
@@ -43,8 +43,7 @@
                         <a class="nav-link" href="./catering.html" data-translate-key="catering_title">Toitlustus</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./entertainment.html"
-                            data-translate-key="entertainment_title">Meelelahutus</a>
+                        <a class="nav-link" href="./entertainment.html" data-translate-key="entertainment_title">Meelelahutus</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -73,151 +72,68 @@
             </div>
         </div>
     </nav>
-    <div class="container-fluid text-centerbox py-5">
-        <h2 class="text-center" style="color: #273043;" data-translate-key="">Toitlustus</h2>
-        <p class="text-left cover-text" style="color: rgb(106, 106, 106); padding: 5px;" data-translate-key="">Pakume
-            Teile toitlustusteenust koos meie külalistemaja saalide ja peoruumide kasutamise võimalusega. Oleme
-            paindlikud vastavalt ürituse eripärale ja Teie soovidele. Selle järgi kohandame ning täiendame menüüd ja
-            leiame koostöös parima lõpplahenduse. Menüüs pakutavate roogadega on võimalik tutvuda kohvikus. Peoruumide
-            valikus on erinevate suurustega saalid ning suvisel ajal väliterass ning mitmed grilli- ja puhkealad meie
-            kaunis sisehoovis. Üritusi on võimalik korraldada esmaspäevast pühapäevani. Alates 7.00-9.00 ja
-            nädalavahetustel 9.00-11.00 pakume hotellikülastajatele hommikueinet. Esmaspäevast reedeni alates
-            11.00-15.00 on kohvik avatud kõigile külastajatele. Toitlustamine, peo- ja peielauad ettetellimisel.
-
-            Info ja tellimine tel 435 4845 E-post: info@mannimaja.ee
-
-            Peolaua tellimisel oleks hea eelnevalt valmis mõelda: • Sündmuse liik • Korraldamise aeg • Ruumi suurus •
-            Osavõtjate arv (täiskasvanud, lapsed) • Menüü või külaliste erisoovid.</p>
+    
+    <div class="container-fluid flex-grow-1 text-centerbox py-5">
+        <h2 class="text-center" style="color: #273043;" data-translate-key="catering_heading">Toitlustus</h2>
+        <div class="text-left cover-text" style="color: rgb(106, 106, 106); padding: 5px;">
+            <p data-translate-key="catering_paragraph1">Pakume Teile toitlustusteenust koos meie külalistemaja saalide ja peoruumide kasutamise võimalusega. Oleme paindlikud vastavalt ürituse eripärale ja Teie soovidele. Selle järgi kohandame ning täiendame menüüd ja leiame koostöös parima lõpplahenduse. Menüüs pakutavate roogadega on võimalik tutvuda kohvikus.</p>
+            <p data-translate-key="catering_paragraph2">Peoruumide valikus on erinevate suurustega saalid ning suvisel ajal väliterass ning mitmed grilli- ja puhkealad meie kaunis sisehoovis. Üritusi on võimalik korraldada esmaspäevast pühapäevani. Alates 7.00-9.00 ja nädalavahetustel 9.00-11.00 pakume hotellikülastajatele hommikueinet. Esmaspäevast reedeni alates 11.00-15.00 on kohvik avatud kõigile külastajatele. Toitlustamine, peo- ja peielauad ettetellimisel.</p>
+            <p data-translate-key="catering_paragraph3">Info ja tellimine tel 435 4845 E-post: info@mannimaja.ee</p>
+            <p data-translate-key="catering_paragraph4">Peolaua tellimisel oleks hea eelnevalt valmis mõelda:</p>
+            <ul style="list-style-type: disc; padding-left: 20px;" data-translate-key="catering_list">
+                <li data-translate-key="catering_list_item1">Sündmuse liik</li>
+                <li data-translate-key="catering_list_item2">Korraldamise aeg</li>
+                <li data-translate-key="catering_list_item3">Ruumi suurus</li>
+                <li data-translate-key="catering_list_item4">Osavõtjate arv (täiskasvanud, lapsed)</li>
+                <li data-translate-key="catering_list_item5">Menüü või külaliste erisoovid</li>
+            </ul>
+        </div>
     </div>
-    <div class="container-fluid p-0 m-0">
 
-        <div class="row align-items-center g-0 bg-white text-dark border-container">
-            <div class="col-12 col-lg-6 p-0"> <!-- Remove padding for full width usage -->
-                <img src="./img/tennis-court.jpg" class="img-fluid img-diagonal-cut-left w-100"
-                    alt="Descriptive Alt Text" style="min-height: 300px;">
+    <footer class="bg-light text-dark mt-5">
+        <div class="container-fluid">
+            <div class="row py-4">
+                <div class="col-md-3">
+                    <h6 data-translate-key="bowling_title">Bowling</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="tel:+3724354844" class="text-decoration-none text-dark">+372 435 4844</a></li>
+                        <li><a href="mailto:bowling@mannimaja.ee"
+                                class="text-decoration-none text-dark">bowling@mannimaja.ee</a></li>
+                        <li>Riia mnt 52d, Viljandi</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6 data-translate-key="accommodation_title">Majutus</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="tel:+3724354845" class="text-decoration-none text-dark">+372 435 4844</a></li>
+                        <li><a href="mailto:info@mannimaja.ee"
+                                class="text-decoration-none text-dark">info@mannimaja.ee</a></li>
+                        <li>Riia mnt 52d, Viljandi</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h6 data-translate-key="links_title">Lingid</h6>
+                    <ul class="list-unstyled">
+                        <!-- <li><a href="./about.html" class="text-decoration-none text-dark" data-translate-key="about">Meist</a></li> -->
+                        <li><a href="https://drive.google.com/file/d/1I5LfHwQ19gUhsuTdhAewjxfr4ThST8Ab/view?usp=sharing" class="text-decoration-none text-dark" target="_blank" data-translate-key="careers">Tööpakkumised</a></li>
+                        <!-- <li><a href="./contact.html" class="text-decoration-none text-dark" data-translate-key="contact">Kontakt</a></li> -->
+                        <li><a href="https://www.facebook.com/pages/M%C3%A4nnim%C3%A4e-K%C3%BClalistemaja/410364585719953" class="text-decoration-none text-dark" target="_blank" data-translate-key="facebook">Facebook</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2093.8151545413457!2d25.57447217732844!3d58.345919789346084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ec98efc118b095%3A0xf2e8bd0700874cd7!2zTcOkbm5pbcOkZSBrw7xsYWxpc3RlbWFqYQ!5e0!3m2!1set!2see!4v1719907494035!5m2!1set!2see"
+                        width="100%" height="170" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
-            <div class="col-12 col-lg-6 d-flex flex-column justify-content-center p-4 content-box"
-                style="min-height: 300px;"> <!-- Flex column for vertical centering -->
-                <h2 data-translate-key="">Toitlustus</h2>
-                <p data-translate-key="">Kui vajate ruume firma- või seltskonnaürituse läbiviimiseks, siis olete õiges
-                    kohas. Meie poolt on parimad lahendused ja kliendisõbralik teenindus!</p>
-                <div class="row justify-content-center mt-5">
-                    <div class="col-12 col-md-3 mb-3 text-center">
-                        <button onclick="location.href='tel:435 4845'"
-                            class="btn btn-primary col-12 col-md-10">Helista</button>
-                    </div>
-                    <p class="col-12 col-md-3 mb-3 text-center" data-translate-key="">või</p>
-                    <div class="col-12 col-md-3 mb-3 text-center">
-                        <button class="btn btn-secondary col-12 col-md-10">Kirjuta</button>
-                    </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="mb-0" data-translate-key="footer_copy">© 2024 Männimäe Külalistemaja. All Rights Reserved.</p>
                 </div>
             </div>
         </div>
-
-        <div class="row align-items-center g-0 bg-white text-dark border-container">
-            <div class="col-12 col-lg-6 p-0 cover-fit"> <!-- Order change for desktop with order-lg-2 -->
-                <img src="./img/out-large.png" class="img-fluid img-diagonal-cut-right w-100" alt="Descriptive Alt Text"
-                    style="min-height: 300px;">
-            </div>
-            <div class="col-12 col-lg-6 order-lg-1 d-flex flex-column justify-content-center p-4 content-box"
-                style="min-height: 300px;">
-                <h2 data-translate-key="">Kohvik</h2>
-                <p data-translate-key="">Männimäe külalistemaja kohviku teatriõhtud toimuvad septembrist aprillini ja on
-                    olnud rõõmuks paljudele teatrisõpradele juba kümme aastat. Pakume suurepärast võimalust mõnusas
-                    hubases õhkkonnas nautida meeldejäävat teatrielamust ning samal ajal kohvi ja suupisteid.
-                    Kokkuleppel saab aastaringselt tellida teatrietendusi erinevatele üritustele. Piletite müük ja
-                    laudade broneerimine kohviku kassas. Soovitame joogid ja suupisted laudadele eelmüügist ette
-                    tellida, menüüga on võimalik tutvuda kohvikus!</p>
-                <p data-translate-key="">Uute teatrietenduste info lisame lähiajal. Jälgige reklaami!</p>
-                <div class="row justify-content-center mt-5">
-                    <div class="col-12 col-md-3 mb-3 text-center">
-                        <button onclick="location.href='tel:435 4845'"
-                            class="btn btn-primary col-12 col-md-10">Helista</button>
-                    </div>
-                    <p class="col-12 col-md-3 mb-3 text-center" data-translate-key="">või</p>
-                    <div class="col-12 col-md-3 mb-3 text-center">
-                        <button class="btn btn-secondary col-12 col-md-10">Kirjuta</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <footer class="bg-light text-dark mt-5">
-            <div class="container-fluid">
-                <div class="row py-4">
-                    <div class="col-md-3">
-                        <h6 data-translate-key="bowling_title">Bowling</h6>
-                        <ul class="list-unstyled">
-                            <li><a href="tel:+3724354844" class="text-decoration-none text-dark">+372 435 4844</a></li>
-                            <li><a href="mailto:bowling@mannimaja.ee"
-                                    class="text-decoration-none text-dark">bowling@mannimaja.ee</a></li>
-                            <li>Riia mnt 52d, Viljandi</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3">
-                        <h6 data-translate-key="accommodation_title">Majutus</h6>
-                        <ul class="list-unstyled">
-                            <li><a href="tel:+3724354844" class="text-decoration-none text-dark">+372 435 4844</a></li>
-                            <li><a href="mailto:info@mannimaja.ee"
-                                    class="text-decoration-none text-dark">info@mannimaja.ee</a></li>
-                            <li>Riia mnt 52d, Viljandi</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3">
-                        <h6 data-translate-key="links_title">Lingid</h6>
-                        <ul class="list-unstyled">
-                            <li><a href="./about.html" class="text-decoration-none text-dark"
-                                    data-translate-key="about">Meist</a></li>
-                            <li><a href="./careers.html" class="text-decoration-none text-dark"
-                                    data-translate-key="careers">Tööpakkumised</a></li>
-                            <li><a href="./contact.html" class="text-decoration-none text-dark"
-                                    data-translate-key="contact">Kontakt</a></li>
-                            <li><a href="https://www.facebook.com/pages/M%C3%A4nnim%C3%A4e-K%C3%BClalistemaja/410364585719953"
-                                    class="text-decoration-none text-dark" data-translate-key="facebook">Facebook</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2093.8151545413457!2d25.57447217732844!3d58.345919789346084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ec98efc118b095%3A0xf2e8bd0700874cd7!2zTcOkbm5pbcOkZSBrw7xsYWxpc3RlbWFqYQ!5e0!3m2!1set!2see!4v1719907494035!5m2!1set!2see"
-                            width="100%" height="170" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12 text-center">
-                        <p class="mb-0">© 2024 Männimäe Külalistemaja. All Rights Reserved.</p>
-                    </div>
-                </div>
-            </div>
-        </footer>
-
-        <script>
-            document.addEventListener('DOMContentLoaded', function () {
-                adjustImageHeight();
-                window.addEventListener('resize', adjustImageHeight);
-            });
-
-            function adjustImageHeight() {
-                const contentBoxes = document.querySelectorAll('.content-box');
-                contentBoxes.forEach(box => {
-                    const image = box.previousElementSibling.querySelector('img');
-                    if (image) {
-                        if (window.innerWidth > 1000) {
-                            if (box.offsetHeight > 300) {
-                                image.style.height = `${box.offsetHeight}px`;
-                            } else {
-                                image.style.height = '300px';
-                            }
-                        } else {
-                            image.style.height = 'auto';
-                        }
-                    }
-                });
-            }
-        </script>
+    </footer>
 
 </body>
-
 </html>

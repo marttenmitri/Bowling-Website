@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Männimäe Külalistemaja</title>
+  <title data-translate-key="page_title">Männimäe Külalistemaja</title>
   <link rel="icon" type="image/png" href="./icons/mannimae-bowling.png">
   <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
   <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
@@ -72,66 +72,60 @@
 
   <div class="cover-image-container">
     <div class="cover-image-overlay py-5">
-      <h2 class="text-center" style="color: #ffffff;" data-translate-key="">Bowling</h2>
-      <p class="cover-text" data-translate-key="">Männimäe bowling on hiljuti uuendatud kaasaegne 6-rajaline
+      <h2 class="text-center" style="color: #ffffff;" data-translate-key="bowling_title">Bowling</h2>
+      <p class="cover-text" data-translate-key="bowling_text">Männimäe bowling on hiljuti uuendatud kaasaegne 6-rajaline
         bowlingusaal
         meie peamaja esimesel korrusel. Tänapäevane tehnika ja efektiderohked rajad pakuvad mõnusat meelelahutust nii
         väikestele kui suurtele. Rajaäärsed tõstemehhanismid mis ei lase pallil renni veereda garanteerivad ka pisemate
         pereliikmete mängurõõmu. Parkimine Männimäe Bowlingu parklas on külalistele tasuta.</p>
-      <p></p>
-      <p class="text-danger">Bowling on hetkel suvepuhkusel ja võimalik broneerida pakette eelnevalt kokku leppides.</p>
+      <p class="text-danger cover-text" data-translate-key="bowling_notice">Männimäe bowling on alates 01.06 kuni 31.08 suvepuhkusel. Firmaüritused, sünnipäeva- ja peopaketid lastele kokkuleppel telefonil 5262777.</p>
     </div>
     <img src="./img/360_F_514390302_dvavptRwXNRjIUTDJH5ivrO2iPhaDUa8.jpg" class="img-fluid w-100 cover-image"
       alt="Cover-img-bridge-with-houses">
   </div>
 
-  <div class="container my-5 text-box col-12 col-lg-6">
+  <div class="container text-box col-12 col-lg-6">
     <div class="row">
       <div class="container my-5 text-box">
-        <div class="container-fluid text-centerbox">
-          <h2 style="color: #273043;" data-translate-key="">Lahtiolekuajad</h2>
-      </div>
+        <div class="container-fluid text-centerbox mb-5">
+          <h2 style="color: #273043;" data-translate-key="opening_hours_title">Lahtiolekuajad</h2>
+        </div>
         <table class="table table-responsive">
           <thead>
             <tr>
-              <th>Päev</th>
-              <th>Kellaajad</th>
-              <th>Hind</th>
+              <th data-translate-key="day">Päev</th>
+              <th data-translate-key="hours">Kellaajad</th>
+              <th data-translate-key="price">Hind</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>Kolmapäev - Neljapäev</td>
-              <td>16-18</td>
-              <td>15€/h</td>
+              <td data-translate-key="wed_thu_day">Kolmapäev - Neljapäev</td>
+              <td>16-23</td>
+              <td>20€/<span data-translate-key="h">h</span></td>
             </tr>
             <tr>
-              <td>Kolmapäev - Neljapäev</td>
-              <td>18-23</td>
-              <td>20€/h</td>
-            </tr>
-            <tr>
-              <td>Reede</td>
+              <td data-translate-key="fri_day">Reede</td>
               <td>16-01</td>
-              <td>24€/h</td>
+              <td>30€/<span data-translate-key="h">h</span></td>
             </tr>
             <tr>
-              <td>Laupäev</td>
+              <td data-translate-key="sat_day">Laupäev</td>
               <td>13-01</td>
-              <td>24€/h</td>
+              <td>30€/<span data-translate-key="h">h</span></td>
             </tr>
             <tr>
-              <td>Pühapäev</td>
+              <td data-translate-key="sun_day">Pühapäev</td>
               <td>13-22</td>
-              <td>20€/h</td>
+              <td>25€/<span data-translate-key="h">h</span></td>
             </tr>
           </tbody>
         </table>
-        <p class="mb-5"><small>(01. September - 31. Mai)</small></p>
+        <p class="mb-5" data-translate-key="opening_period"><small>(01. September - 31. Mai)</small></p>
 
         <div class="row mt-4">
           <div class="col-12 col-sm-6">
-            <button class="btn btn-primary w-100" onclick="location.href='tel:526 2777'">Helista</button>
+            <button class="btn btn-primary w-100" onclick="location.href='tel:526 2777'" data-translate-key="call_button">Helista</button>
           </div>
         </div>
       </div>
@@ -139,53 +133,56 @@
     </div>
   </div>
   <hr>
-  <div class="container-fluid text-centerbox col-12 col-lg-6">
-    <h2 style="color: #273043;" data-translate-key="">Paketid</h2>
-  </div>
 
+  <div class="container-fluid text-centerbox col-12 col-lg-6">
+    <h2 style="color: #273043;" data-translate-key="packages_title">Paketid</h2>
+  </div>
   <div class="splide" id="splide">
+
     <div class="splide__track">
+
       <ul class="splide__list">
         <li class="splide__slide">
+
           <div class="card bowling-card my-5">
             <!--<img src="./img/depositphotos_66237819-stock-photo-young-people-holding-bowling-balls.jpg"
               class="card-img-top" alt="cover-photo-people">-->
             <div class="card-body">
-              <h4 class="card-text mb-5 col-12" style="text-align: center;"><strong>Noortekas 12-le</strong></h4>
+              <h4 class="card-text mb-5 col-12 text-center" data-translate-key="youth_package_title"><strong>Noortekas 12-le</strong></h4>
 
               <div class="row">
                 <div class="col-12 text-left">
-                  <P>• Bowling 2 rada 2h</P>
+                  <p data-translate-key="youth_package_bowling">• Bowling 2 rada 2h</p>
                 </div>
               </div>
 
               <div class="row">
                 <div class="col-12 text-left">
-                  <P>• Bowlingujalatsid</P>
+                  <p data-translate-key="youth_package_shoes">• Bowlingujalatsid</p>
                 </div>
               </div>
 
               <div class="row">
                 <div class="col-12 text-left">
-                  <P>• Aura mahl 4l</P>
+                  <p data-translate-key="youth_package_juice">• Aura mahl 4l</p>
                 </div>
               </div>
 
               <div class="row">
                 <div class="col-12 text-left">
-                  <P>• Popcorn 1pk</P>
+                  <p data-translate-key="youth_package_popcorn">• Popcorn 1pk</p>
                 </div>
               </div>
 
               <div class="row">
                 <div class="col-12 text-left">
-                  <P>• Friikartulid ja pelmeenid</P>
+                  <p data-translate-key="youth_package_fries">• Friikartulid ja pelmeenid</p>
                 </div>
               </div>
 
               <div class="row">
                 <div class="col-12 text-left">
-                  <P>• Küüslauguleivad</P>
+                  <p data-translate-key="youth_package_bread">• Küüslauguleivad</p>
                 </div>
               </div>
 
@@ -194,7 +191,7 @@
                   <p class="fs-3"><strong>220.-</strong></p>
                 </div>
                 <div class="col-6 text-center">
-                  <button class="btn btn-primary btn-md" onclick="location.href='tel:526 2777'">Helista</button>
+                  <button class="btn btn-primary btn-md" onclick="location.href='tel:526 2777'" data-translate-key="call_button">Helista</button>
                 </div>
               </div>
 
@@ -205,41 +202,41 @@
           <div class="card bowling-card my-5">
             <!--<img src="./img/attachment-Untitled-design-48.jpg" class="card-img-top" alt="cover-photo-kids">-->
             <div class="card-body">
-              <h4 class="card-text mb-5 col-12" style="text-align: center;"><strong>Winku lastekas 12-le</strong></h4>
+              <h4 class="card-text mb-5 col-12 text-center" data-translate-key="winku_kids_title"><strong>Winku lastekas 12-le</strong></h4>
 
               <div class="row">
                 <div class="col-12 text-left">
-                  <P>• Bowling 2 rada 2h</P>
+                  <p data-translate-key="winku_kids_bowling">• Bowling 2 rada 2h</p>
                 </div>
               </div>
 
               <div class="row">
                 <div class="col-12 text-left">
-                  <P>• Bowlingujalatsid</P>
+                  <p data-translate-key="winku_kids_shoes">• Bowlingujalatsid</p>
                 </div>
               </div>
 
               <div class="row">
                 <div class="col-12 text-left">
-                  <P>• Aura mahl 4l</P>
+                  <p data-translate-key="winku_kids_juice">• Aura mahl 4l</p>
                 </div>
               </div>
 
               <div class="row">
                 <div class="col-12 text-left">
-                  <P>• Laysi kartulikrõpsud 2tki</P>
+                  <p data-translate-key="winku_kids_chips">• Laysi kartulikrõpsud 2tki</p>
                 </div>
               </div>
 
               <div class="row">
                 <div class="col-12 text-left">
-                  <P>• Friikartulid viineritega</P>
+                  <p data-translate-key="winku_kids_fries">• Friikartulid viineritega</p>
                 </div>
               </div>
 
               <div class="row">
                 <div class="col-10 text-left">
-                  <P>• Kingitus sünnipäevalapsele</P>
+                  <p data-translate-key="winku_kids_gift">• Kingitus sünnipäevalapsele</p>
                 </div>
               </div>
 
@@ -248,7 +245,7 @@
                   <p class="fs-3"><strong>220.-</strong></p>
                 </div>
                 <div class="col-6 text-center">
-                  <button class="btn btn-primary btn-md" onclick="location.href='tel:526 2777'">Helista</button>
+                  <button class="btn btn-primary btn-md" onclick="location.href='tel:526 2777'" data-translate-key="call_button">Helista</button>
                 </div>
               </div>
             </div>
@@ -258,41 +255,41 @@
           <div class="card bowling-card my-5">
             <!--<img src="./img/attachment-Untitled-design-48.jpg" class="card-img-top" alt="cover-photo-kids">-->
             <div class="card-body">
-              <h4 class="card-text mb-5 col-12" style="text-align: center;"><strong>Test</strong></h4>
+              <h4 class="card-text mb-5 col-12 text-center" data-translate-key="party_package_title"><strong>Peopaket</strong></h4>
 
               <div class="row">
                 <div class="col-12 text-left">
-                  <P>• Bowling 2 rada 2h</P>
+                  <p data-translate-key="party_package_bowling">• Bowling 2 rada 2h</p>
                 </div>
               </div>
 
               <div class="row">
                 <div class="col-12 text-left">
-                  <P>• Bowlingujalatsid</P>
+                  <p data-translate-key="party_package_shoes">• Bowlingujalatsid</p>
                 </div>
               </div>
 
               <div class="row">
                 <div class="col-12 text-left">
-                  <P>• Aura mahl 4l</P>
+                  <p data-translate-key="party_package_wine">• Vahuvein 2tki</p>
                 </div>
               </div>
 
               <div class="row">
                 <div class="col-12 text-left">
-                  <P>• Laysi kartulikrõpsud 2tki</P>
+                  <p data-translate-key="party_package_fruit">• Puuviljavaagen</p>
                 </div>
               </div>
 
               <div class="row">
                 <div class="col-12 text-left">
-                  <P>• Friikartulid viineritega</P>
+                  <p data-translate-key="party_package_cheese">• Juustuvaagen</p>
                 </div>
               </div>
 
               <div class="row">
                 <div class="col-10 text-left">
-                  <P>• Kingitus sünnipäevalapsele</P>
+                  <p data-translate-key="party_package_meat">• Lihavaagen</p>
                 </div>
               </div>
 
@@ -301,7 +298,7 @@
                   <p class="fs-3"><strong>220.-</strong></p>
                 </div>
                 <div class="col-6 text-center">
-                  <button class="btn btn-primary btn-md" onclick="location.href='tel:526 2777'">Helista</button>
+                  <button class="btn btn-primary btn-md" onclick="location.href='tel:526 2777'" data-translate-key="call_button">Helista</button>
                 </div>
               </div>
             </div>
@@ -313,48 +310,41 @@
 
   <footer class="bg-light text-dark mt-5">
     <div class="container-fluid">
-      <div class="row py-4">
-        <div class="col-md-3">
-          <h6 data-translate-key="bowling_title">Bowling</h6>
-          <ul class="list-unstyled">
-            <li><a href="tel:+3724354844" class="text-decoration-none text-dark">+372 435 4844</a></li>
-            <li><a href="mailto:bowling@mannimaja.ee" class="text-decoration-none text-dark">bowling@mannimaja.ee</a>
-            </li>
-            <li>Riia mnt 52d, Viljandi</li>
-          </ul>
+        <div class="row py-4">
+            <div class="col-md-3">
+                <h6 data-translate-key="bowling_title">Bowling</h6>
+                <ul class="list-unstyled">
+                  <li><a href="tel:+3724354844" class="text-decoration-none text-dark">+372 435 4844</a></li>
+                  <li><a href="mailto:bowling@mannimaja.ee" class="text-decoration-none text-dark">bowling@mannimaja.ee</a></li>
+                  <li>Riia mnt 52d, Viljandi</li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+              <h6 data-translate-key="accommodation_title">Majutus</h6>
+              <ul class="list-unstyled">
+                <li><a href="tel:+3724354845" class="text-decoration-none text-dark">+372 435 4845</a></li>
+                <li><a href="mailto:info@mannimaja.ee" class="text-decoration-none text-dark">info@mannimaja.ee</a></li>
+                <li>Riia mnt 52d, Viljandi</li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <h6 data-translate-key="links_title">Lingid</h6>
+              <ul class="list-unstyled">
+                  <!-- <li><a href="./about.html" class="text-decoration-none text-dark" data-translate-key="about">Meist</a></li> -->
+                  <li><a href="https://drive.google.com/file/d/1I5LfHwQ19gUhsuTdhAewjxfr4ThST8Ab/view?usp=sharing" class="text-decoration-none text-dark" target="_blank" data-translate-key="careers">Tööpakkumised</a></li>
+                  <!-- <li><a href="./contact.html" class="text-decoration-none text-dark" data-translate-key="contact">Kontakt</a></li> -->
+                  <li><a href="https://www.facebook.com/pages/M%C3%A4nnim%C3%A4e-K%C3%BClalistemaja/410364585719953" class="text-decoration-none text-dark" target="_blank" data-translate-key="facebook">Facebook</a></li>
+              </ul>
+          </div>
+            <div class="col-md-3">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2093.8151545413457!2d25.57447217732844!3d58.345919789346084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ec98efc118b095%3A0xf2e8bd0700874cd7!2zTcOkbm5pbcOkZSBrw7xsYWxpc3RlbWFqYQ!5e0!3m2!1set!2see!4v1719907494035!5m2!1set!2see" width="100%" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </div>
-        <div class="col-md-3">
-          <h6 data-translate-key="accommodation_title">Majutus</h6>
-          <ul class="list-unstyled">
-            <li><a href="tel:+3724354844" class="text-decoration-none text-dark">+372 435 4844</a></li>
-            <li><a href="mailto:info@mannimaja.ee" class="text-decoration-none text-dark">info@mannimaja.ee</a></li>
-            <li>Riia mnt 52d, Viljandi</li>
-          </ul>
+        <div class="row">
+            <div class="col-12 text-center">
+                <p class="mb-0">© 2024 Männimäe Külalistemaja. All Rights Reserved.</p>
+            </div>
         </div>
-        <div class="col-md-3">
-          <h6 data-translate-key="links_title">Lingid</h6>
-          <ul class="list-unstyled">
-            <li><a href="./about.html" class="text-decoration-none text-dark" data-translate-key="about">Meist</a></li>
-            <li><a href="./careers.html" class="text-decoration-none text-dark"
-                data-translate-key="careers">Tööpakkumised</a></li>
-            <li><a href="./contact.html" class="text-decoration-none text-dark" data-translate-key="contact">Kontakt</a>
-            </li>
-            <li><a href="https://www.facebook.com/pages/M%C3%A4nnim%C3%A4e-K%C3%BClalistemaja/410364585719953"
-                class="text-decoration-none text-dark" data-translate-key="facebook">Facebook</a></li>
-          </ul>
-        </div>
-        <div class="col-md-3">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2093.8151545413457!2d25.57447217732844!3d58.345919789346084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ec98efc118b095%3A0xf2e8bd0700874cd7!2zTcOkbm5pbcOkZSBrw7xsYWxpc3RlbWFqYQ!5e0!3m2!1set!2see!4v1719907494035!5m2!1set!2see"
-            width="100%" height="170" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 text-center">
-          <p class="mb-0">© 2024 Männimäe Külalistemaja. All Rights Reserved.</p>
-        </div>
-      </div>
     </div>
   </footer>
 
@@ -365,7 +355,7 @@
       perPage: 2,
       cover: true,
       breakpoints: {
-        1200: {
+        1300: {
           perPage: 1,
           arrow: {
             next: null,
@@ -373,7 +363,6 @@
         },
       },
     }).mount();
-
   </script>
 
 </body>

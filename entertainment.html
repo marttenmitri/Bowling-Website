@@ -9,16 +9,21 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
     <script src="translations.js"></script>
+    <script src="gallery.js"></script>
 </head>
 
 <body class="container-main">
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html"><img src="./img/mannimae-bowling.png" class="img-fluid" alt="logo" style="max-height: 40px;"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="./index.html"><img src="./img/mannimae-bowling.png" class="img-fluid"
+                    alt="logo" style="max-height: 40px;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -39,170 +44,271 @@
                         <a class="nav-link" href="./catering.html" data-translate-key="catering_title">Toitlustus</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./entertainment.html" data-translate-key="entertainment_title">Meelelahutus</a>
+                        <a class="nav-link" href="./entertainment.html"
+                            data-translate-key="entertainment_title">Meelelahutus</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <img src="./icons/en-flag.png" alt="English" id="currentLanguage" style="width: 24px; height: 24px;">
+                        <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="./icons/en-flag.png" alt="English" id="currentLanguage"
+                                style="width: 24px; height: 24px;">
                         </a>
                         <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="languageDropdown">
-                            <li><a class="dropdown-item" href="#" onclick="changeLanguage('en-flag.png')"><img src="./icons/en-flag.png" alt="English" style="width: 24px; height: 24px;"> English</a></li>
-                            <li><a class="dropdown-item" href="#" onclick="changeLanguage('et-flag.png')"><img src="./icons/et-flag.png" alt="Eesti" style="width: 24px; height: 24px;"> Eesti</a></li>
-                            <li><a class="dropdown-item" href="#" onclick="changeLanguage('ru-flag.png')"><img src="./icons/ru-flag.png" alt="Русский" style="width: 24px; height: 24px;"> Русский</a></li>
-                            <li><a class="dropdown-item" href="#" onclick="changeLanguage('fi-flag.png')"><img src="./icons/fi-flag.png" alt="Suomi" style="width: 24px; height: 24px;"> Suomi</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="changeLanguage('en-flag.png')"><img
+                                        src="./icons/en-flag.png" alt="English" style="width: 24px; height: 24px;">
+                                    English</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="changeLanguage('et-flag.png')"><img
+                                        src="./icons/et-flag.png" alt="Eesti" style="width: 24px; height: 24px;">
+                                    Eesti</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="changeLanguage('ru-flag.png')"><img
+                                        src="./icons/ru-flag.png" alt="Русский" style="width: 24px; height: 24px;">
+                                    Русский</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="changeLanguage('fi-flag.png')"><img
+                                        src="./icons/fi-flag.png" alt="Suomi" style="width: 24px; height: 24px;">
+                                    Suomi</a></li>
                         </ul>
                     </li>
                 </ul>
             </div>
         </div>
-      </nav>
-      <div class="container-fluid text-centerbox py-5">
+    </nav>
+    <div class="container-fluid text-centerbox py-5">
         <h2 class="text-center" style="color: #273043;" data-translate-key="entertainment_title_page">Meelelahutus</h2>
-        <p class="text-left cover-text" style="color: rgb(106, 106, 106); padding: 5px;" data-translate-key="entertainment_text_page">Soovite leida mõnusat ja hubast peopaika või tahad lihtsalt sõpradega sauna tulla, siis olete õiges kohas! Pakume võimalust tähtpäevade, jõulupidude, seminaride, kokkutulekute, firma- ja seltskonnaürituste läbiviimiseks. Valikus on mitmed erinevate suuruste ning võimalustega peo- ja saunaruumid ning bowlingu- ja piljardisaal. Meil leidub tegevust nii lastele kui täiskasvanutele. Et pidu oleks täiuslik on kõiki meie teenuseid võimalik vastavalt Teie soovidele omavahel kombineerida. Peasaalis on lava koos valgus- ja helitehnikaga ning kokkuleppel saab üritustele tellida ka teatrietendusi. Peamajas asuvat salong-kino saab kasutada privaatseteks kinoseanssideks, teema-üritusteks, seminarideks ja ka sünniäevade osana. Bowlingusaal pakub erinevaid peo- ja sünnipäevapakette nii suurtele kui väikestele. Toitlustamine, peo- ja peielauad ettetellimisel.</p>
+        <p class="text-left cover-text" style="color: rgb(106, 106, 106); padding: 5px;"
+            data-translate-key="entertainment_text_page">Soovite leida mõnusat ja hubast peopaika või tahad lihtsalt
+            sõpradega sauna tulla, siis olete õiges kohas! Pakume võimalust tähtpäevade, jõulupidude, seminaride,
+            kokkutulekute, firma- ja seltskonnaürituste läbiviimiseks. Valikus on mitmed erinevate suuruste ning
+            võimalustega peo- ja saunaruumid ning bowlingu- ja piljardisaal. Meil leidub tegevust nii lastele kui
+            täiskasvanutele. Et pidu oleks täiuslik on kõiki meie teenuseid võimalik vastavalt Teie soovidele omavahel
+            kombineerida. Peasaalis on lava koos valgus- ja helitehnikaga ning kokkuleppel saab üritustele tellida ka
+            teatrietendusi. Peamajas asuvat salong-kino saab kasutada privaatseteks kinoseanssideks, teema-üritusteks,
+            seminarideks ja ka sünniäevade osana. Bowlingusaal pakub erinevaid peo- ja sünnipäevapakette nii suurtele
+            kui väikestele. Toitlustamine, peo- ja peielauad ettetellimisel.</p>
     </div>
-      <div class="container-fluid p-0 m-0">
-    
-        <div class="row align-items-center g-0 bg-white text-dark border-container">  
+    <div class="container-fluid p-0 m-0">
+
+        <div class="row align-items-center g-0 bg-white text-dark border-container">
             <div class="col-12 col-lg-6 p-0"> <!-- Remove padding for full width usage -->
-                <img src="./img/tennis-court.jpg" class="img-fluid img-diagonal-cut-left w-100" alt="Descriptive Alt Text" style="min-height: 300px;">
+                <img src="./img/tennis-court.jpg" class="img-fluid img-diagonal-cut-left w-100" onclick="openModal('tennis');"
+                    alt="Descriptive Alt Text" style="min-height: 300px;">
             </div>
-            <div class="col-12 col-lg-6 d-flex flex-column justify-content-center p-4 content-box" style="min-height: 300px;"> <!-- Flex column for vertical centering -->
+            <div class="col-12 col-lg-6 d-flex flex-column justify-content-center p-4 content-box"
+                style="min-height: 300px;"> <!-- Flex column for vertical centering -->
                 <h2 data-translate-key="tennis_court_title">Tennise väljak</h2>
-                <p data-translate-key="tennis_court_text">Männimäe Külalistemaja territooriumil asub ka tenniseväljak, mis pakub suurepärast võimalust aktiivseks ajaveetmiseks. Külalistemajas ööbijatele on tenniseväljak üheks tunniks tasuta, võimaldades nautida sportimist lisakuludeta. Kui soovite tennist mängida pikemalt, on väljaku kasutamise hind 10 eurot tund. Ootame Teid Männimäele, et saaksite nautida meie mugavusi ja tenniseväljakut!</p>
+                <p data-translate-key="tennis_court_text">Männimäe Külalistemaja territooriumil asub ka tenniseväljak,
+                    mis pakub suurepärast võimalust aktiivseks ajaveetmiseks. Külalistemajas ööbijatele on tenniseväljak
+                    üheks tunniks tasuta, võimaldades nautida sportimist lisakuludeta. Kui soovite tennist mängida
+                    pikemalt, on väljaku kasutamise hind 10 eurot tund. Ootame Teid Männimäele, et saaksite nautida meie
+                    mugavusi ja tenniseväljakut!</p>
                 <div class="row justify-content-center mt-5">
                     <div class="col-12 text-center">
-                        <h5 data-translate-key="court_rent_price">Platsi rent 10€/ h</h5>
+                        <h5><span data-translate-key="court_rent_price">Platsi rent</span> 10€/<span data-translate-key="h">h</span></h5>
                     </div>
                 </div>
                 <div class="row justify-content-center mt-5">
-                    <div class="col-12 col-md-3 mb-3 text-center">
-                        <button onclick="location.href='tel:435 4845'" class="btn btn-primary col-12 col-md-10" data-translate-key="call">Helista</button>
+                    <div class="col-12 col-md-6 mb-3 text-center">
+                        <button onclick="openModal('tennis');" class="btn btn-secondary col-12 col-md-10" data-translate-key="gallery">Galerii</button>
                     </div>
-                    <p class="col-12 col-md-3 mb-3 text-center" data-translate-key="or">või</p>
-                    <div class="col-12 col-md-3 mb-3 text-center">
-                        <button class="btn btn-secondary col-12 col-md-10" data-translate-key="write">Kirjuta</button>
+                    <div class="col-12 col-md-6 mb-3 text-center">
+                        <button onclick="location.href='tel:435 4845'" class="btn btn-primary col-12 col-md-10" data-translate-key="call">Helista</button>
                     </div>
                 </div>
             </div>
         </div>
-        
-        <div class="row align-items-center g-0 bg-white text-dark border-container"> 
-          <div class="col-12 col-lg-6 p-0 cover-fit"> <!-- Order change for desktop with order-lg-2 -->
-                <img src="./img/out-large.png" class="img-fluid img-diagonal-cut-right w-100" alt="Descriptive Alt Text" style="min-height: 300px;">
+
+        <div class="row align-items-center g-0 bg-white text-dark border-container">
+            <div class="col-12 col-lg-6 p-0 cover-fit"> <!-- Order change for desktop with order-lg-2 -->
+                <img src="./img/missing.png" class="img-fluid img-diagonal-cut-right w-100" onclick="openModal('cafe');" alt="Descriptive Alt Text"
+                    style="min-height: 300px;">
             </div>
-            <div class="col-12 col-lg-6 order-lg-1 d-flex flex-column justify-content-center p-4 content-box" style="min-height: 300px;">
+            <div class="col-12 col-lg-6 order-lg-1 d-flex flex-column justify-content-center p-4 content-box"
+                style="min-height: 300px;">
                 <h2 data-translate-key="cafe_theater_title">Kohvikteater</h2>
-                <p data-translate-key="cafe_theater_text_1">Männimäe külalistemaja kohviku teatriõhtud toimuvad septembrist aprillini ja on olnud rõõmuks paljudele teatrisõpradele juba kümme aastat. Pakume suurepärast võimalust mõnusas hubases õhkkonnas nautida meeldejäävat teatrielamust ning samal ajal kohvi ja suupisteid. Kokkuleppel saab aastaringselt tellida teatrietendusi erinevatele üritustele. Piletite müük ja laudade broneerimine kohviku kassas. Soovitame joogid ja suupisted laudadele eelmüügist ette tellida, menüüga on võimalik tutvuda kohvikus!</p>
-                <p data-translate-key="cafe_theater_text_2">Uute teatrietenduste info lisame lähiajal. Jälgige reklaami!</p>
+                <p data-translate-key="cafe_theater_text_1">Männimäe külalistemaja kohviku teatriõhtud toimuvad
+                    septembrist aprillini ja on olnud rõõmuks paljudele teatrisõpradele juba kümme aastat. Pakume
+                    suurepärast võimalust mõnusas hubases õhkkonnas nautida meeldejäävat teatrielamust ning samal ajal
+                    kohvi ja suupisteid. Kokkuleppel saab aastaringselt tellida teatrietendusi erinevatele üritustele.
+                    Piletite müük ja laudade broneerimine kohviku kassas. Soovitame joogid ja suupisted laudadele
+                    eelmüügist ette tellida, menüüga on võimalik tutvuda kohvikus!</p>
+                <p data-translate-key="cafe_theater_text_2">Uute teatrietenduste info lisame lähiajal. Jälgige reklaami!
+                </p>
                 <div class="row justify-content-center mt-5">
-                    <div class="col-12 col-md-3 mb-3 text-center">
-                        <button onclick="location.href='tel:435 4845'" class="btn btn-primary col-12 col-md-10" data-translate-key="call">Helista</button>
+                    <div class="col-12 col-md-6 mb-3 text-center">
+                        <button onclick="openModal('cafe');" class="btn btn-secondary col-12 col-md-10" data-translate-key="gallery">Galerii</button>
                     </div>
-                    <p class="col-12 col-md-3 mb-3 text-center" data-translate-key="or">või</p>
-                    <div class="col-12 col-md-3 mb-3 text-center">
-                        <button class="btn btn-secondary col-12 col-md-10" data-translate-key="write">Kirjuta</button>
+                    <div class="col-12 col-md-6 mb-3 text-center">
+                        <button onclick="location.href='tel:435 4845'" class="btn btn-primary col-12 col-md-10" data-translate-key="call">Helista</button>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="row align-items-center g-0 bg-white text-dark border-container"> 
+        <div class="row align-items-center g-0 bg-white text-dark border-container">
             <div class="col-12 col-lg-6 p-0"> <!-- Order change for desktop with order-lg-2 -->
-                  <img src="./img/out-large.png" class="img-fluid img-diagonal-cut-left w-100" alt="Descriptive Alt Text" style="min-height: 300px;">
-              </div>
-              <div class="col-12 col-lg-6 order-lg-1 d-flex flex-column justify-content-center p-4 content-box" style="min-height: 300px;">
-                  <h2 data-translate-key="grill_title">Grill</h2>
-                  <p data-translate-key="grill_text_1">Männimäe Külalistemaja territooriumil on mitu tasuta grillimispaika külalistele. Need alad pakuvad ideaalse võimaluse veeta suveõhtuid pere ja sõpradega, valmistades maitsvaid grillroogasid.
+                <img src="./img/missing.png" class="img-fluid img-diagonal-cut-left w-100" onclick="openModal('grill');" alt="Descriptive Alt Text"
+                    style="min-height: 300px;">
+            </div>
+            <div class="col-12 col-lg-6 order-lg-1 d-flex flex-column justify-content-center p-4 content-box"
+                style="min-height: 300px;">
+                <h2 data-translate-key="grill_title">Grill</h2>
+                <p data-translate-key="grill_text_1">Männimäe Külalistemaja territooriumil on mitu tasuta grillimispaika
+                    külalistele. Need alad pakuvad ideaalse võimaluse veeta suveõhtuid pere ja sõpradega, valmistades
+                    maitsvaid grillroogasid.
 
-                    Kõik grillimiskohad on hästi varustatud, et tagada mugav grillimiskogemus. Männimäe Külalistemajas ööbides saate nautida kaunisse loodusesse sulanduvat õhkkonda ja suurepäraseid grillimisvõimalusi. Ootame Teid Männimäele, et saaksite nautida meie külalistemaja mugavusi ja tasuta grillimisalasid!</p>
-                  <p data-translate-key="grill_text_2">Ootame Teid Männimäele, et saaksite nautida meie külalistemaja mugavusi ja tasuta grillimisalasid!</p>
-              </div>
-          </div>
+                    Kõik grillimiskohad on hästi varustatud, et tagada mugav grillimiskogemus. Männimäe Külalistemajas
+                    ööbides saate nautida kaunisse loodusesse sulanduvat õhkkonda ja suurepäraseid grillimisvõimalusi.
+                    Ootame Teid Männimäele, et saaksite nautida meie külalistemaja mugavusi ja tasuta grillimisalasid!
+                </p>
+                <p data-translate-key="grill_text_2">Ootame Teid Männimäele, et saaksite nautida meie külalistemaja
+                    mugavusi ja tasuta grillimisalasid!</p>
+                    <div class="row justify-content-center mt-5">
+                        <div class="col-12 col-md-6 mb-6 text-center">
+                            <button onclick="openModal('grill');" class="btn btn-secondary col-12 col-md-10" data-translate-key="gallery">Galerii</button>
+                        </div>
+                    </div>
+            </div>
+        </div>
 
-          <div class="row align-items-center g-0 bg-white text-dark border-container"> 
+        <div class="row align-items-center g-0 bg-white text-dark border-container">
             <div class="col-12 col-lg-6 p-0"> <!-- Order change for desktop with order-lg-2 -->
-                  <img src="./img/out-large.png" class="img-fluid img-diagonal-cut-right w-100" alt="Descriptive Alt Text" style="min-height: 300px;">
-              </div>
-              <div class="col-12 col-lg-6 order-lg-1 d-flex flex-column justify-content-center p-4 content-box" style="min-height: 300px;">
-                  <h2 data-translate-key="beach_cafe_title">Rannakohvik</h2>
-                  <p data-translate-key="beach_cafe_text_1">Rannakohvik Viljandi järve kaldal on ideaalne koht lõõgastumiseks ja maitsvate roogade nautimiseks. Meie kohvik asub vahetult järve ääres, pakkudes külastajatele kaunist vaadet ja rahulikku atmosfääri. Menüüst leiate laias valikus toite ja jooke, alates kergematest suupistetest ja salatitest kuni täisväärtuslike praadide ja magustoitudeni.
+                <img src="./img/missing.png" class="img-fluid img-diagonal-cut-right w-100" onclick="openModal('beachCafe');" alt="Descriptive Alt Text"
+                    style="min-height: 300px;">
+            </div>
+            <div class="col-12 col-lg-6 order-lg-1 d-flex flex-column justify-content-center p-4 content-box"
+                style="min-height: 300px;">
+                <h2 data-translate-key="beach_cafe_title">Rannakohvik</h2>
+                <p data-translate-key="beach_cafe_text_1">Rannakohvik Viljandi järve kaldal on ideaalne koht
+                    lõõgastumiseks ja maitsvate roogade nautimiseks. Meie kohvik asub vahetult järve ääres, pakkudes
+                    külastajatele kaunist vaadet ja rahulikku atmosfääri. Menüüst leiate laias valikus toite ja jooke,
+                    alates kergematest suupistetest ja salatitest kuni täisväärtuslike praadide ja magustoitudeni.
 
                     Männimäe Külalistemajas ööbijatele pakume kohvikus erilisi soodustusi.</p>
-                  <p data-translate-key="beach_cafe_text_2">Ootame Teid külla, et saaksite nautida meie kohviku mõnusat õhkkonda ja suurepärast toiduvalikut!</p>
-                  <div class="row justify-content-center mt-5">
-                    <div class="col-12 col-md-4 mb-3 text-center">
-                        <button onclick="window.open('https://www.google.com/maps/dir/59.4116608,24.7955456/Rannakohvik,+Vesiflirdi,+Viljandi,+Viljandi+County/@58.4258489,25.6919567,11.25z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0x46ec989769b3ccef:0x856315cd3829d4be!2m2!1d25.6057815!2d58.3602873?entry=ttu', '_blank')" class="btn btn-primary col-12 col-md-10" data-translate-key="directions">Juhised</button>
+                <p data-translate-key="beach_cafe_text_2">Ootame Teid külla, et saaksite nautida meie kohviku mõnusat
+                    õhkkonda ja suurepärast toiduvalikut!</p>
+                <div class="row justify-content-center mt-5">
+                    <div class="col-12 col-md-6 mb-3 text-center">
+                        <button onclick="openModal('beachCafe');" class="btn btn-secondary col-12 col-md-10" data-translate-key="gallery">Galerii</button>
                     </div>
-                  </div>
-              </div>
-          </div>
-
-    <footer class="bg-light text-dark mt-5">
-        <div class="container-fluid">
-            <div class="row py-4">
-                <div class="col-md-3">
-                    <h6 data-translate-key="bowling_title">Bowling</h6>
-                    <ul class="list-unstyled">
-                      <li><a href="tel:+3724354844" class="text-decoration-none text-dark">+372 435 4844</a></li>
-                      <li><a href="mailto:bowling@mannimaja.ee" class="text-decoration-none text-dark">bowling@mannimaja.ee</a></li>
-                      <li>Riia mnt 52d, Viljandi</li>
-                    </ul>
-                </div>
-                <div class="col-md-3">
-                  <h6 data-translate-key="accommodation_title">Majutus</h6>
-                  <ul class="list-unstyled">
-                    <li><a href="tel:+3724354844" class="text-decoration-none text-dark">+372 435 4844</a></li>
-                    <li><a href="mailto:info@mannimaja.ee" class="text-decoration-none text-dark">info@mannimaja.ee</a></li>
-                    <li>Riia mnt 52d, Viljandi</li>
-                  </ul>
-                </div>
-                <div class="col-md-3">
-                  <h6 data-translate-key="links_title">Lingid</h6>
-                  <ul class="list-unstyled">
-                      <li><a href="./about.html" class="text-decoration-none text-dark" data-translate-key="about">Meist</a></li>
-                      <li><a href="./careers.html" class="text-decoration-none text-dark" data-translate-key="careers">Tööpakkumised</a></li>
-                      <li><a href="./contact.html" class="text-decoration-none text-dark" data-translate-key="contact">Kontakt</a></li>
-                      <li><a href="https://www.facebook.com/pages/M%C3%A4nnim%C3%A4e-K%C3%BClalistemaja/410364585719953" class="text-decoration-none text-dark" data-translate-key="facebook">Facebook</a></li>
-                  </ul>
-              </div>
-                <div class="col-md-3">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2093.8151545413457!2d25.57447217732844!3d58.345919789346084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ec98efc118b095%3A0xf2e8bd0700874cd7!2zTcOkbm5pbcOkZSBrw7xsYWxpc3RlbWFqYQ!5e0!3m2!1set!2see!4v1719907494035!5m2!1set!2see" width="100%" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 text-center">
-                    <p class="mb-0">© 2024 Männimäe Külalistemaja. All Rights Reserved.</p>
+                    <div class="col-12 col-md-6 mb-3 text-center">
+                        <button
+                            onclick="window.open('https://www.google.com/maps/dir/59.4116608,24.7955456/Rannakohvik,+Vesiflirdi,+Viljandi,+Viljandi+County/@58.4258489,25.6919567,11.25z/data=!4m9!4m8!1m1!4e1!1m5!1m1!1s0x46ec989769b3ccef:0x856315cd3829d4be!2m2!1d25.6057815!2d58.3602873?entry=ttu', '_blank')"
+                            class="btn btn-primary col-12 col-md-10" data-translate-key="directions">Juhised</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </footer>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            adjustImageHeight();
-            window.addEventListener('resize', adjustImageHeight);
-        });
+        <div id="tennis" class="modal">
+            <span class="close cursor" onclick="closeModal('tennis')">&times;</span>
+            <div class="modal-content">
+                <div id="tenniseSlides"></div>
+                <a class="prev" onclick="plusSlides(-1, 'tennis')">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 'tennis')">&#10095;</a>
+            </div>
+        </div>
 
-        function adjustImageHeight() {
-            const contentBoxes = document.querySelectorAll('.content-box');
-            contentBoxes.forEach(box => {
-                const image = box.previousElementSibling.querySelector('img');
-                if (image) {
-                    if (window.innerWidth > 1000) {
-                        if (box.offsetHeight > 300) {
-                            image.style.height = `${box.offsetHeight}px`;
-                        } else {
-                            image.style.height = '300px';
-                        }
-                    } else {
-                        image.style.height = 'auto';
-                    }
-                }
+        <div id="cafe" class="modal">
+            <span class="close cursor" onclick="closeModal('cafe')">&times;</span>
+            <div class="modal-content">
+                <div id="cafeSlides"></div>
+                <a class="prev" onclick="plusSlides(-1, 'cafe')">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 'cafe')">&#10095;</a>
+            </div>
+        </div>
+
+        <div id="grill" class="modal">
+            <span class="close cursor" onclick="closeModal('grill')">&times;</span>
+            <div class="modal-content">
+                <div id="grillSlides"></div>
+                <a class="prev" onclick="plusSlides(-1, 'grill')">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 'grill')">&#10095;</a>
+            </div>
+        </div>
+
+        <div id="beachCafe" class="modal">
+            <span class="close cursor" onclick="closeModal('beachCafe')">&times;</span>
+            <div class="modal-content">
+                <div id="beachCafeSlides"></div>
+                <a class="prev" onclick="plusSlides(-1, 'beachCafe')">&#10094;</a>
+                <a class="next" onclick="plusSlides(1, 'beachCafe')">&#10095;</a>
+            </div>
+        </div>
+
+        <footer class="bg-light text-dark mt-5">
+            <div class="container-fluid">
+                <div class="row py-4">
+                    <div class="col-md-3">
+                        <h6 data-translate-key="bowling_title">Bowling</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="tel:+3724354844" class="text-decoration-none text-dark">+372 435 4844</a></li>
+                            <li><a href="mailto:bowling@mannimaja.ee"
+                                    class="text-decoration-none text-dark">bowling@mannimaja.ee</a></li>
+                            <li>Riia mnt 52d, Viljandi</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h6 data-translate-key="accommodation_title">Majutus</h6>
+                        <ul class="list-unstyled">
+                            <li><a href="tel:+3724354845" class="text-decoration-none text-dark">+372 435 4845</a></li>
+                            <li><a href="mailto:info@mannimaja.ee"
+                                    class="text-decoration-none text-dark">info@mannimaja.ee</a></li>
+                            <li>Riia mnt 52d, Viljandi</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h6 data-translate-key="links_title">Lingid</h6>
+                        <ul class="list-unstyled">
+                            <!-- <li><a href="./about.html" class="text-decoration-none text-dark" data-translate-key="about">Meist</a></li> -->
+                            <li><a href="https://drive.google.com/file/d/1I5LfHwQ19gUhsuTdhAewjxfr4ThST8Ab/view?usp=sharing"
+                                    class="text-decoration-none text-dark" target="_blank"
+                                    data-translate-key="careers">Tööpakkumised</a></li>
+                            <!-- <li><a href="./contact.html" class="text-decoration-none text-dark" data-translate-key="contact">Kontakt</a></li> -->
+                            <li><a href="https://www.facebook.com/pages/M%C3%A4nnim%C3%A4e-K%C3%BClalistemaja/410364585719953"
+                                    class="text-decoration-none text-dark" target="_blank"
+                                    data-translate-key="facebook">Facebook</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2093.8151545413457!2d25.57447217732844!3d58.345919789346084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ec98efc118b095%3A0xf2e8bd0700874cd7!2zTcOkbm5pbcOkZSBrw7xsYWxpc3RlbWFqYQ!5e0!3m2!1set!2see!4v1719907494035!5m2!1set!2see"
+                            width="100%" height="170" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <p class="mb-0">© 2024 Männimäe Külalistemaja. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                adjustImageHeight();
+                window.addEventListener('resize', adjustImageHeight);
             });
-        }
-    </script>
+
+            function adjustImageHeight() {
+                const contentBoxes = document.querySelectorAll('.content-box');
+                contentBoxes.forEach(box => {
+                    const image = box.previousElementSibling.querySelector('img');
+                    if (image) {
+                        if (window.innerWidth > 1000) {
+                            if (box.offsetHeight > 300) {
+                                image.style.height = `${box.offsetHeight}px`;
+                            } else {
+                                image.style.height = '300px';
+                            }
+                        } else {
+                            image.style.height = 'auto';
+                        }
+                    }
+                });
+            }
+        </script>
 
 </body>
 
