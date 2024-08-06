@@ -1,28 +1,76 @@
 // Houses
 const mainHouseImages = [
-    "./img/out-1.png",
-    "./img/room-1.png",
-    "./img/room-2.png"
+    "./img/mainhouse/mainhouse_cover.jpg",
+    "./img/mainhouse/doors.jpg",
+    "./img/mainhouse/room_1_toilet.jpg",
+    "./img/mainhouse/room_1_beds.jpg",
+    "./img/mainhouse/room_2_toilets.jpg",
+    "./img/mainhouse/room_2_beds.jpg",
 ];
 
 const greyHouseImages = [
-    "./img/out-large-2.png",
+    "./img/greyhouse/grey_house_cover.jpg",
+    "./img/greyhouse/outside.jpg",
+    "./img/greyhouse/livingroom.jpg",
+    "./img/greyhouse/stairs.jpg",
+    "./img/greyhouse/toilets.jpg",
+    "./img/greyhouse/bathroom.jpg",
+    "./img/greyhouse/2_beds.jpg",
+    "./img/greyhouse/2_beds_room.jpg",
+    "./img/greyhouse/basement.jpg",
 ];
 
 const abHouseImages = [
-    "./img/out-large-3.png",
+    "./img/abhouse/a_b_cover.jpg",
+    "./img/abhouse/outside_b.jpg",
+    "./img/abhouse/toilets.jpg",
+    "./img/abhouse/kitchen.jpg",
+    "./img/abhouse/room_11.jpg",
+    "./img/abhouse/beds_2.jpg",
+    "./img/abhouse/beds.jpg",
+    "./img/abhouse/sofa.jpg",
+    
 ];
 
 const smallHouseImages = [
-    "./img/out-large-4.png",
+
+    "./img/smallhouse/small_house_cover.jpg",
+    "./img/smallhouse/walkway.jpg",
+    "./img/smallhouse/grill_area.jpg",
+    "./img/smallhouse/inside_table.jpg",
+    "./img/smallhouse/stairs.jpg",
+    "./img/smallhouse/beds.jpg",
+    "./img/smallhouse/balcony.jpg",
+    "./img/smallhouse/sauna.jpg",
+    "./img/smallhouse/grill.jpg",
+    "./img/smallhouse/swing.jpg",
+
+    
 ];
 
 const campHouseImages = [
-    "./img/sauna_1.jpg",
+    "./img/camphouse/camp_house_cover.jpg",
+    "./img/camphouse/outside.jpg",
+    "./img/camphouse/outside_far.jpg",
+    "./img/camphouse/peek_inside.jpg",
+    "./img/camphouse/bed.jpg",
+    "./img/camphouse/peek_outside.jpg",
 ];
 
 const guestHouseImages = [
-    "./img/sauna_2.jpg",
+    "./img/guesthouse/guest_house_cover.jpg",
+    "./img/guesthouse/room_1.jpg",
+    "./img/guesthouse/balcony_room.jpg",
+    "./img/guesthouse/balcony_lake_view.jpg",
+    "./img/guesthouse/tennis.jpg",
+    "./img/guesthouse/balcony.jpg",
+    "./img/guesthouse/bedroom_2.jpg",
+    "./img/guesthouse/bedroom_3.jpg",
+    "./img/guesthouse/bedroom_1.jpg",
+    "./img/guesthouse/bed.jpg",
+    "./img/guesthouse/toilet.jpg",
+    "./img/guesthouse/kitchen.jpg",
+    "./img/guesthouse/room_2.jpg",
 ];
 
 // Saunas
@@ -31,46 +79,94 @@ const sauna_1 = [
 ];
 
 const sauna_2 = [
-    "./img/sauna_2.jpg",
+    "./img/sauna2/sauna_2_cover.jpg",
+    "./img/sauna2/relax_area.jpg",
+    "./img/sauna2/relax_area_2.jpg",
+    "./img/sauna2/sauna_2.jpg",
+    "./img/sauna2/pool.jpg",
 ];
 
 const sauna_3 = [
-    "./img/sauna_2.jpg",
-    "./img/sauna_1.jpg",
+    "./img/sauna3/sauna_3_cover.jpg",
+    "./img/sauna3/sauna_1.jpg",
+    "./img/sauna3/showers.jpg",
+    "./img/sauna3/toilet.jpg",
+    "./img/sauna3/pool_1.jpg",
+    "./img/sauna3/pool_2.jpg",
+    
 ];
 
 // Halls
 const smallHallImages = [
-    "./img/sauna_1.jpg",
+    "./img/smallhall/small_hall_cover.jpg",
+    "./img/smallhall/room_2.jpg",
+    "./img/smallhall/pool.jpg",
+    "./img/smallhall/sauna.jpg",
+    "./img/smallhall/outside.jpg",
 ];
 
 const fireplaceHallImages = [
-    "./img/sauna_2.jpg",
+    "./img/fireplacehall/fireplace_hall_cover.jpg",
+    "./img/fireplacehall/room_1.jpg",
+    "./img/fireplacehall/room_2.jpg",
+    "./img/fireplacehall/fireplace.jpg",
+    "./img/fireplacehall/toilet.jpg",
+    "./img/fireplacehall/toilet_doors.jpg",
+    "./img/fireplacehall/pool.jpg",
+    "./img/fireplacehall/pool_2.jpg",
+    "./img/fireplacehall/showers.jpg",
+    "./img/fireplacehall/sauna.jpg",
+
+
 ];
 
 const cinemaHallImages = [
-    "./img/sauna_2.jpg",
+    "./img/cinemahall/cinema_hall_cover.jpg",
+    "./img/cinemahall/chairs.jpg",
+    "./img/cinemahall/chairs_2.jpg",
 ];
 
 const mainHallImages = [
-    "./img/sauna_2.jpg",
+    "./img/mainhall/main_hall_cover.jpg",
+    "./img/mainhall/room_1.jpg",
+    "./img/mainhall/room_3.jpg",
+    "./img/mainhall/room_4.jpg",
+    "./img/mainhall/breakfest.jpg",
+    "./img/mainhall/entrance.jpg",
+    "./img/mainhall/upstairs_2.jpg",
+    "./img/mainhall/upstairs_1.jpg",
 ];
 
 // Entertainment
 const tennisImages = [
-    "./img/sauna_2.jpg",
+    "./img/tennis/tennis_cover.jpg",
+    "./img/tennis/player_1.jpg",
+    "./img/tennis/players_2.jpg",
 ];
 
 const grillImages = [
-    "./img/sauna_2.jpg",
+    "./img/grill/grill_cover.jpg",
+    "./img/grill/grill.jpg",
+    "./img/grill/large_grill.jpg",
 ];
 
 const cafeImages = [
-    "./img/sauna_2.jpg",
+    "./img/mainhall/main_hall_cover.jpg",
+    "./img/mainhall/room_1.jpg",
+    "./img/mainhall/room_3.jpg",
+    "./img/mainhall/room_4.jpg",
+    "./img/mainhall/breakfest.jpg",
+    "./img/mainhall/entrance.jpg",
+    "./img/mainhall/upstairs_2.jpg",
+    "./img/mainhall/upstairs_1.jpg",
 ];
 
 const beachCafeImages = [
-    "./img/sauna_2.jpg",
+    "./img/beachcafe/beach_cafe_cover.jpg",
+    "./img/beachcafe/room_1.jpg",
+    "./img/beachcafe/room_2.jpg",
+    "./img/beachcafe/menu.jpg",
+    "./img/beachcafe/icecream.jpg",
 ];
 
 const houseImages = {
