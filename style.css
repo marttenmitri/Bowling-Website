@@ -368,6 +368,10 @@ img.hover-shadow {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.ad-image {
+    width: 60%; /* Larger width for desktop */
+}
+
 @media (max-width: 768px) {
     .cover-image {
         display: inline;
@@ -380,6 +384,9 @@ img.hover-shadow {
         width: 100%;
         position: relative;
         display: inline-block;
+    }
+    .ad-image {
+        width: 95%; /* Default width for smaller screens (mobile) */
     }
 }
 

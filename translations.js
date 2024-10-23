@@ -121,7 +121,9 @@ const translations = {
     "party_package_fruit": "• Fruit platter",
     "party_package_cheese": "• Cheese platter",
     "party_package_meat": "• Meat platter",
-    "opening_period": "(01. September - 31. May)"
+    "opening_period": "(01. September - 31. May)",
+    "events_header" : "EVENTS",
+    "events_header_text" : "Performances at Männimäe Guesthouse Café",
   },
   "et": {
     "welcome_message": "Teretulemast Männimäele",
@@ -245,7 +247,9 @@ const translations = {
     "party_package_fruit": "• Puuviljavaagen",
     "party_package_cheese": "• Juustuvaagen",
     "party_package_meat": "• Lihavaagen",
-    "opening_period": "(01. September - 31. Mai)"
+    "opening_period": "(01. September - 31. Mai)",
+    "events_header" : "ÜRITUSED",
+    "events_header_text" : "Etendused Männimäe külalistemaja kohvikus",
   },
   "ru": {
     "welcome_message": "Добро пожаловать в Männimäe",
@@ -369,7 +373,9 @@ const translations = {
     "party_package_fruit": "• Фруктовая тарелка",
     "party_package_cheese": "• Сырная тарелка",
     "party_package_meat": "• Мясная тарелка",
-    "opening_period": "(01. Сентябрь - 31. Май)"
+    "opening_period": "(01. Сентябрь - 31. Май)",
+    "events_header" : "МЕРОПРИЯТИЯ",
+    "events_header_text" : "Представления в кафе гостевого дома Männimäe",
   },
   "fi": {
     "welcome_message": "Tervetuloa Männimäeen",
@@ -493,7 +499,9 @@ const translations = {
     "party_package_fruit": "• Hedelmälautanen",
     "party_package_cheese": "• Juustolautanen",
     "party_package_meat": "• Lihalautanen",
-    "opening_period": "(01. Syyskuu - 31. Toukokuu)"
+    "opening_period": "(01. Syyskuu - 31. Toukokuu)",
+    "events_header" : "TAPAHTUMAT",
+    "events_header_text" : "Esitykset Männimäen vierastalon kahvilassa",
   }
 };
 
