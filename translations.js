@@ -512,7 +512,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 function changeLanguage(flag) {
   const language = flag.split('-')[0];
-  document.getElementById('currentLanguage').src = './icons/' + flag;
+  document.getElementById('currentLanguage').src = './img/icons/' + flag;
   localStorage.setItem("language", flag);
 
   const elementsToTranslate = document.querySelectorAll('[data-translate-key]');
