@@ -103,7 +103,7 @@
           <h2 style="color: #273043;" data-translate-key="opening_hours_title">Lahtiolekuajad</h2>
         </div>
         <!-- SULETUD OSA -->
-        <!-- <div class="alert-banner mb-4" style="background: linear-gradient(135deg, #dc3545, #c82333); color: white; padding: 20px; border-radius: 10px; text-align: center; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+        <div id="summer-break-banner" class="alert-banner mb-4" style="display: none; background: linear-gradient(135deg, #dc3545, #c82333); color: white; padding: 20px; border-radius: 10px; text-align: center; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
             <h3 style="margin: 0; font-size: 1.8rem; font-weight: bold; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
                 Kallid kliendid!
             </h3>
@@ -117,7 +117,7 @@
                 peopaketid lastele kokkuleppel<br>
                 telefonil: <strong>526 2777</strong>
             </p>
-        </div> -->
+        </div>
         <table class="table table-responsive">
           <thead>
             <tr>
@@ -417,6 +417,16 @@
 
 
   <script>
+    const today = new Date();
+    const year = today.getFullYear();
+    const summerBreakStart = new Date(year, 5, 1);
+    const summerBreakEnd = new Date(year, 7, 31, 23, 59, 59, 999);
+    const summerBreakBanner = document.getElementById('summer-break-banner');
+
+    if (summerBreakBanner && today >= summerBreakStart && today <= summerBreakEnd) {
+      summerBreakBanner.style.display = 'block';
+    }
+
     new Splide('.splide', {
       type: 'loop',
       perPage: 2,
