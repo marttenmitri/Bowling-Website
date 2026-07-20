@@ -388,6 +388,10 @@ img.hover-shadow {
     .ad-image {
         width: 95%; /* Default width for smaller screens (mobile) */
     }
+
+    .footer-award {
+        margin-bottom: 24px;
+    }
 }
 
 @media (max-width: 993px) {
