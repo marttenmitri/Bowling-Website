@@ -1,0 +1,10 @@
+# Check for updated bowling prices before reusing cached HTML or translations.
+<FilesMatch "^(bowling\.html|translations\.js)$">
+    <IfModule mod_expires.c>
+        ExpiresActive Off
+    </IfModule>
+    <IfModule mod_headers.c>
+        Header onsuccess unset Cache-Control
+        Header always set Cache-Control "no-cache, max-age=0, must-revalidate"
+    </IfModule>
+</FilesMatch>
